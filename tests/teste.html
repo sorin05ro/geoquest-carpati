@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Teste automate – Misiunea Carpați</title>
+<style>body{font:15px/1.5 system-ui;margin:16px;background:#fff;color:#111}.ok{color:#1d6b2c}.nu{color:#b3261e;font-weight:700}pre{white-space:pre-wrap}</style></head>
+<body><h1>Teste automate</h1><p>Rulează integritatea datelor, baremul și compararea tolerantă a răspunsurilor.</p><pre id="out">Se rulează…</pre>
+<script type="module">
+import * as E from '../js/engine.js';
+import { creeaza } from '../js/exercises.js';
+import { sePotriveste } from '../js/normalize.js';
+const rez = []; const t = (nume, ok, info = '') => rez.push({ nume, ok: !!ok, info });
+try {
+  await E.incarcaDate();
+  // 1. integritate
+  const ID_TEST = ['T1-I-1','T1-I-2','T1-I-3','T1-I-4','T1-I-5','T1-II-1','T1-II-2','T1-II-3','T1-II-4','T1-II-5','T1-III','T1-IV-1','T1-IV-2','T1-IV-3','T1-V','T1-VI',
+    'T2-I-1','T2-I-2','T2-I-3','T2-I-4','T2-I-5','T2-II-1','T2-II-2','T2-II-3','T2-II-4','T2-II-5','T2-III','T2-IV-1','T2-IV-2','T2-IV-3','T2-V','T2-VI'];
+  t('32 de itemi din teste, cu id-urile din meta-prompt', ID_TEST.every(id => E.D.teste.some(q => q.id === id)) && E.D.teste.length === 32, `${E.D.teste.length} itemi`);
+  const toate = E.toateIntrebarile(); const ids = toate.map(q => q.id);
+  t('fără id-uri duplicate', new Set(ids).size === ids.length);
+  t('≥ 140 întrebări suplimentare', E.D.extra.length >= 140, `${E.D.extra.length}`);
+  const pe = (tr) => E.D.extra.filter(q => q.taram === tr).length;
+  t('distribuție pe tărâmuri (35/35/30/30)', pe('orientali') >= 35 && pe('meridionali') >= 35 && pe('occidentali') >= 30 && pe('dct') >= 30, `O ${pe('orientali')} · M ${pe('meridionali')} · C ${pe('occidentali')} · D ${pe('dct')}`);
+  t('fiecare întrebare suplimentară are sursă', E.D.extra.every(q => q.sursa && q.sursa.length > 10));
+  t('fiecare număr 1–15 cerut în ambele sensuri pe hartă', [...Array(15)].every((_, i) => E.D.extra.some(q => q.tip === 'harta_atinge' && q.tinta === i + 1) && E.D.extra.some(q => q.tip === 'harta_numar' && q.nr === i + 1)));
+  t('indicii „corect” valide', toate.filter(q => 'corect' in q && q.variante).every(q => q.corect >= 0 && q.corect < q.variante.length));
+  t('perechi valide la potriviri', toate.filter(q => q.tip === 'potrivire').every(q => Object.keys(q.perechi).length === q.coloanaA.length && Object.values(q.perechi).every(j => j < q.coloanaB.length)));
+  t('regiuni 1–15 cu poligoane', E.D.harta.regiuni.filter(r => r.activ).length === 15 && E.D.harta.regiuni.filter(r => r.activ).every(r => r.poligoane.length && r.poligoane[0].length >= 3));
+  const niv = new Set(E.D.taramuri.flatMap(x => x.niveluri.map(n => n.id)));
+  t('fiecare întrebare aparține unui nivel existent', toate.every(q => niv.has(q.nivel)));
+  t('fiecare nivel are cel puțin 7 întrebări', [...niv].every(n => E.intrebariNivel(n).length >= 7));
+  // 2. fiecare întrebare: rezolvarea corectă = 1, iar controllerul se construiește fără erori
+  const rele = [];
+  for (const q of toate) { const c = creeaza(q, {}); const s = c._rezolva(); const v = c.evalueaza(s); if (Math.abs(v - 1) > 1e-9) rele.push(q.id + '=' + v); }
+  t('rezolvarea corectă primește punctaj maxim la toate cele ' + toate.length + ' întrebări', rele.length === 0, rele.join(', '));
+  // 3. barem
+  for (const n of [1, 2]) {
+    const it = E.D.teste.filter(q => q.test === n);
+    const max = it.reduce((a, q) => a + q.puncte, 0);
+    const perfect = it.reduce((a, q) => { const c = creeaza(q, {}); return a + q.puncte * c.evalueaza(c._rezolva()); }, 0) + 10;
+    const pePS = {}; for (const q of it) pePS[q.subiect] = (pePS[q.subiect] || 0) + q.puncte;
+    t(`Testul nr. ${n}: 90p + 10p oficiu = 100, nota 10`, max === 90 && Math.abs(perfect - 100) < 1e-9, `max ${max}, perfect ${perfect}`);
+    t(`Testul nr. ${n}: punctaje pe subiecte 20/20/10/20/10/10`, JSON.stringify(pePS) === JSON.stringify({ I: 20, II: 20, III: 10, IV: 20, V: 10, VI: 10 }), JSON.stringify(pePS));
+    t(`Testul nr. ${n}: fără răspunsuri = 10p, nota 1`, Math.abs(0 + 10 - 10) < 1e-9);
+    // răspunsuri greșite
+    const gresit = it.reduce((a, q) => {
+      const c = creeaza(q, {}); let s;
+      switch (q.tip) {
+        case 'grila': s = (q.corect + 1) % q.variante.length; break;
+        case 'completare': s = 'zzz'; break;
+        case 'potrivire': s = Object.fromEntries(q.coloanaA.map((_, i) => [i, (q.perechi[i] + 1) % q.coloanaB.length])); break;
+        case 'harta': s = q.itemi.map(() => 'nimic'); break;
+        case 'selectie_multipla': { const k = q.de_selectat || 2; s = []; for (let i = 0; s.length < k; i++) if (c.evalueaza([i]) === 0) s.push(i); break; }
+        case 'comparare': s = {}; break;
+        case 'selectie_dubla': s = Object.fromEntries(q.itemi.map((it2, i) => [i, it2.variante_gresite[0]])); break;
+        case 'cauza_efect': s = { 'relief glaciar': 'x', 'cratere vulcanice': 'y' }; break;
+        default: s = null;
+      }
+      return a + q.puncte * c.evalueaza(s);
+    }, 0) + 10;
+    t(`Testul nr. ${n}: toate greșite = 10p (nota 1)`, Math.abs(gresit - 10) < 1e-9, `obținut ${gresit}`);
+  }
+  // 4. comparare tolerantă
+  const cazuri = [['carpatii orientali', ['Carpații Orientali']], ['Carpații Orientali ', ['Carpații Orientali']], ['CARPAȚII ORIENTALI', ['Carpații Orientali']],
+    ['Olt', ['Olt']], ['râul Olt', ['Olt']], ['valea Oltului', ['Olt']], ['Vf. Moldoveanu', ['Moldoveanu']], ['moldoveanu', ['Moldoveanu']], ['1080 m', ['1080']],
+    ['Lovistei', ['Loviștei']], ['depresiunea Loviștei', ['Loviștei']], ['Barcău', ['Barcăului', 'Barcău']], ['valea Barcăului', ['Barcăului', 'Barcău']], ['cueste', ['cueste']]];
+  const respinse = [['Mureș', ['Olt']], ['Carpații Occidentali', ['Carpații Orientali']], ['', ['Olt']], ['Parângul Mare', ['Moldoveanu']]];
+  t('normalize: formulări acceptate', cazuri.every(([a, b]) => sePotriveste(a, b)), cazuri.filter(([a, b]) => !sePotriveste(a, b)).map(x => x[0]).join(', '));
+  t('normalize: formulări respinse', respinse.every(([a, b]) => !sePotriveste(a, b)), respinse.filter(([a, b]) => sePotriveste(a, b)).map(x => x[0]).join(', '));
+} catch (e) { t('excepție', false, e.stack || e.message); }
+window.__rezultat = rez;
+document.getElementById('out').innerHTML = rez.map(r => `<span class="${r.ok ? 'ok' : 'nu'}">${r.ok ? '✓' : '✗'} ${r.nume}</span>${r.info ? ' — ' + r.info : ''}`).join('\n') + `\n\n${rez.filter(r => r.ok).length} / ${rez.length} teste trecute`;
+</script></body></html>

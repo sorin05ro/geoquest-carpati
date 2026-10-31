@@ -1,0 +1,337 @@
+{
+ "taramuri": [
+  {
+   "id": "orientali",
+   "nume": "Carpații Orientali",
+   "icon": "🏔️",
+   "culoare": "#94532a",
+   "niveluri": [
+    {
+     "id": "o1",
+     "titlu": "Poziție și limite"
+    },
+    {
+     "id": "o2",
+     "titlu": "Caracteristici"
+    },
+    {
+     "id": "o3",
+     "titlu": "Grupa Nordică"
+    },
+    {
+     "id": "o4",
+     "titlu": "Grupa Centrală"
+    },
+    {
+     "id": "o5",
+     "titlu": "Grupa Sudică"
+    },
+    {
+     "id": "o6",
+     "titlu": "Hartă și recapitulare"
+    }
+   ]
+  },
+  {
+   "id": "meridionali",
+   "nume": "Carpații Meridionali",
+   "icon": "⛰️",
+   "culoare": "#7a4a2a",
+   "niveluri": [
+    {
+     "id": "m1",
+     "titlu": "Limite și caracteristici"
+    },
+    {
+     "id": "m2",
+     "titlu": "Grupele Bucegi și Făgăraș"
+    },
+    {
+     "id": "m3",
+     "titlu": "Grupele Parâng și Retezat-Godeanu"
+    },
+    {
+     "id": "m4",
+     "titlu": "Vârfuri și râuri"
+    },
+    {
+     "id": "m5",
+     "titlu": "Hartă și recapitulare"
+    }
+   ]
+  },
+  {
+   "id": "occidentali",
+   "nume": "Carpații Occidentali",
+   "icon": "🌲",
+   "culoare": "#2d7a3e",
+   "niveluri": [
+    {
+     "id": "c1",
+     "titlu": "Limite și caracteristici"
+    },
+    {
+     "id": "c2",
+     "titlu": "Banat și Poiana Ruscă"
+    },
+    {
+     "id": "c3",
+     "titlu": "Munții Apuseni"
+    },
+    {
+     "id": "c4",
+     "titlu": "Hartă și recapitulare"
+    }
+   ]
+  },
+  {
+   "id": "dct",
+   "nume": "Depresiunea Colinară a Transilvaniei",
+   "icon": "🌾",
+   "culoare": "#b8860b",
+   "niveluri": [
+    {
+     "id": "d1",
+     "titlu": "Nume, limite, formare"
+    },
+    {
+     "id": "d2",
+     "titlu": "Roci și fenomene"
+    },
+    {
+     "id": "d3",
+     "titlu": "Diviziunile"
+    },
+    {
+     "id": "d4",
+     "titlu": "Hartă și recapitulare"
+    }
+   ]
+  }
+ ],
+ "lectii": {
+  "orientali": [
+   {
+    "titlu": "Poziție și limite",
+    "puncte": [
+     "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+     "La est domină, printr-o diferență de altitudine de 700–1000 m, Podișul Moldovei și Subcarpații Moldovei.",
+     "La sud se află Subcarpații Curburii, iar la vest Depresiunea Colinară a Transilvaniei, Dealurile de Vest și Câmpia de Vest.",
+     "La sud-vest sunt dominați de înălțimile de peste 2000 m ale Carpaților Meridionali."
+    ]
+   },
+   {
+    "titlu": "Caracteristici",
+    "puncte": [
+     "Au înălțimi mijlocii (circa 1300 m), rar trecând de 1800 m.",
+     "Culmile se desfășoară în șiruri paralele, orientate în cea mai mare parte NV–SE (de la sud de Valea Trotușului se curbează spre SV).",
+     "Sunt alcătuiți din roci vulcanice (în vest), șisturi cristaline (în centru) și roci sedimentare cutate (la est și sud).",
+     "Fragmentarea este accentuată: culmile închid depresiuni largi (Maramureșului, Giurgeului, Ciucului ș.a.).",
+     "În munții înalți (Rodnei și, mai puțin, Maramureșului și Călimani) este întâlnit relieful glaciar."
+    ]
+   },
+   {
+    "titlu": "Grupa Nordică – Carpații Maramureșului și Bucovinei",
+    "puncte": [
+     "Limite: N – granița cu Ucraina; S – aliniamentul Depr. Dornelor – Pasul Mestecăniș – valea Moldovei.",
+     "Altitudinea maximă: 2303 m, Vf. Pietrosul Rodnei (Munții Rodnei).",
+     "Roci vulcanice: Oaș, Gutâi, Țibleș, Bârgău. Roci metamorfice: Maramureșului, Rodnei, Suhard, Obcina Mestecăniș. Roci sedimentare: Obcina Feredeu, Obcina Mare.",
+     "Tipuri de relief: vulcanic, glaciar, carstic.",
+     "Depresiuni: Maramureșului, Dornelor, Câmpulung."
+    ]
+   },
+   {
+    "titlu": "Grupa Centrală – Carpații Moldo-Transilvani",
+    "puncte": [
+     "Limite: N – aliniamentul Depr. Dornelor – Pasul Mestecăniș – valea Moldovei; S – Pasul Oituz – valea Oituzului.",
+     "Altitudinea maximă: 2100 m, Vf. Pietrosul Călimanilor (Munții Călimani).",
+     "Roci vulcanice: Călimani, Gurghiu, Harghita. Roci metamorfice: Bistriței, Giurgeu, Hășmaș. Roci sedimentare: Stânișoarei, Tarcău, Ceahlău.",
+     "Tipuri de relief: vulcanic, carstic.",
+     "Depresiuni: Giurgeu, Ciuc, Comănești."
+    ]
+   },
+   {
+    "titlu": "Grupa Sudică – Carpații Curburii",
+    "puncte": [
+     "Limite: N – Pasul Oituz – valea Oituzului; V – valea Prahovei.",
+     "Altitudinea maximă: 1954 m, Vf. Ciucaș (Munții Ciucaș).",
+     "Roci sedimentare: Vrancei, Buzăului, Ciucaș.",
+     "Tip de relief: carstic.",
+     "Depresiunea Brașov."
+    ]
+   }
+  ],
+  "meridionali": [
+   {
+    "titlu": "Prezentare și limite",
+    "puncte": [
+     "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+     "Limite: E – Valea Prahovei; S – Subcarpații Curburii și Getici, Podișul Mehedinți; V – Culoarul Timiș–Cerna; N – Valea Bistrei – Depr. Hațeg – Culoarul Orăștie – Depr. Transilvaniei."
+    ]
+   },
+   {
+    "titlu": "Caracteristici",
+    "puncte": [
+     "S-au format prin încrețire în timpul orogenezei alpine.",
+     "Altitudinea maximă este de 2544 m, în Vf. Moldoveanu (Munții Făgăraș); altitudinea medie este de 1150 m.",
+     "Prezintă roci metamorfice pe scară largă, dar întâlnim și calcar și conglomerate.",
+     "Orientarea culmilor este E–V.",
+     "Tipuri de relief: glaciar, carstic, pe conglomerate.",
+     "Prezintă masivitate accentuată, datorată durității rocilor.",
+     "Sunt traversați parțial de Dâmbovița și Jiu și în totalitate de Olt."
+    ]
+   },
+   {
+    "titlu": "Grupa Bucegi",
+    "puncte": [
+     "Cuprinsă între valea Prahovei și valea Dâmboviței.",
+     "Altitudinea maximă: 2505 m, Vf. Omu.",
+     "Relief carstic și pe conglomerate.",
+     "Roci: șisturi cristaline (Leaota), conglomerate (Bucegi), calcar (Piatra Craiului).",
+     "Culoarul depresionar Rucăr – Bran."
+    ]
+   },
+   {
+    "titlu": "Grupa Făgăraș",
+    "puncte": [
+     "Cuprinsă între valea Dâmboviței și valea Oltului.",
+     "Altitudinea maximă: 2544 m, Vf. Moldoveanu.",
+     "Relief carstic și glaciar.",
+     "Șisturi cristaline (Făgăraș, Cozia, Frunții, Ghițu, Iezer).",
+     "Depresiunea Loviștei."
+    ]
+   },
+   {
+    "titlu": "Grupa Parâng",
+    "puncte": [
+     "Cuprinsă între valea Oltului și valea Jiului.",
+     "Altitudinea maximă: 2519 m, Vf. Parângul Mare.",
+     "Relief carstic și glaciar.",
+     "Șisturi cristaline și calcar (Parâng, Șureanu, Căpățânii, Lotrului).",
+     "Depresiunea Petroșani."
+    ]
+   },
+   {
+    "titlu": "Grupa Retezat-Godeanu",
+    "puncte": [
+     "Cuprinsă între valea Jiului și culoarul Timiș–Cerna.",
+     "Altitudinea maximă: 2509 m, Vf. Peleaga.",
+     "Relief carstic și glaciar.",
+     "Șisturi cristaline și calcar (Retezat, Godeanu, Mehedinți, Vâlcan, Țarcu).",
+     "Depresiunea Hațeg."
+    ]
+   }
+  ],
+  "occidentali": [
+   {
+    "titlu": "Prezentare și limite",
+    "puncte": [
+     "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+     "Limite: S – Valea Dunării; N – Valea Barcăului; E – Depresiunea Transilvaniei, Culoarul Alba Iulia – Turda, Culoarul Orăștie, Depr. Hațeg, Valea Bistrei, Culoarul Timiș–Cerna; V – Câmpia și Dealurile de Vest."
+    ]
+   },
+   {
+    "titlu": "Caracteristici",
+    "puncte": [
+     "S-au format prin încrețire în timpul orogenezei alpine.",
+     "Altitudinea maximă este de 1849 m, în Vf. Bihor; altitudinea medie este de 640 m.",
+     "Prezintă roci metamorfice, sedimentare, vulcanice.",
+     "Prezintă relief carstic și vulcanic.",
+     "Relieful este foarte fragmentat."
+    ]
+   },
+   {
+    "titlu": "Munții Banatului",
+    "puncte": [
+     "Sunt cuprinși între valea Dunării și valea Timișului.",
+     "Altitudinea maximă: 1447 m, Vf. Semenic.",
+     "Roci metamorfice și calcar; relief carstic.",
+     "Masive: Semenic, Almăjului, Aninei, Locvei, Dognecei.",
+     "Depresiuni: Caraș-Ezeriș, Almăjului."
+    ]
+   },
+   {
+    "titlu": "Munții Poiana Ruscă",
+    "puncte": [
+     "Sunt cuprinși între valea Timișului și valea Mureșului.",
+     "Altitudinea maximă: 1374 m, Vf. Padeș.",
+     "Roci metamorfice și calcar (și marmură); relief carstic."
+    ]
+   },
+   {
+    "titlu": "Munții Apuseni",
+    "puncte": [
+     "Sunt cuprinși între valea Mureșului și valea Barcăului.",
+     "Altitudinea maximă: 1849 m, Vf. Bihor (Cucurbăta Mare).",
+     "Roci metamorfice, calcar și roci vulcanice, dispuse sub formă de „mozaic petrografic”.",
+     "Relief carstic și vulcanic.",
+     "Masive: Bihor, Zarandului, Metaliferi, Trascău, Codru-Moma, Vlădeasa, Gilău, Pădurea Craiului, Muntele Mare, Plopiș, Meseș.",
+     "Depresiuni-golf (formate datorită tectonicii „în clape de pian”): Zarand, Brad, Beiuș, Vad-Borod, Zlatna.",
+     "În nord, trecerea către Orientali se face printr-o serie de măguri cristaline numite „munți ascunși”."
+    ]
+   }
+  ],
+  "dct": [
+   {
+    "titlu": "Numele și limitele",
+    "puncte": [
+     "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+     "Este denumită colinară datorită stadiului incipient de eroziune.",
+     "Limite: E, S, V – Carpații; NV – „munții ascunși”."
+    ]
+   },
+   {
+    "titlu": "Caracteristici",
+    "puncte": [
+     "S-a format prin scufundarea unui compartiment carpatic, urmată de sedimentarea și ridicarea inegală a acestuia.",
+     "Este formată pe roci sedimentare mai rezistente (gresii, marne, calcar) sau mai puțin rezistente (argilă, nisip, sare).",
+     "Altitudinile scad de la peste 1000 m în est (1080 m, Dl. Bichiș) la sub 400 m în SV, la ieșirea Mureșului din depresiune.",
+     "Datorită prezenței sării apare fenomenul de diapirism (ascensiunea sării).",
+     "În regiunile cu straturi monoclinale apar dealuri asimetrice numite cueste.",
+     "Zonele în care sunt prezente argilele sunt afectate de alunecări de teren."
+    ]
+   },
+   {
+    "titlu": "Subcarpații Transilvaniei",
+    "puncte": [
+     "Sunt localizați în est, la contactul cu Carpații Orientali.",
+     "Prezența sării a determinat diapirism, ce a dus la formarea de cute diapire.",
+     "Prezintă cele mai mari altitudini, datorate și existenței unor roci mai rezistente (gresii, tuf vulcanic, marnă)."
+    ]
+   },
+   {
+    "titlu": "Depresiunile de contact",
+    "puncte": [
+     "Sunt situate în sud și vest.",
+     "S-au format prin eroziunea selectivă a principalelor râuri (Olt, Mureș) și a afluenților acestora.",
+     "Depresiuni: Făgăraș, Sibiu, Culoarul Alba Iulia – Turda, Huedin."
+    ]
+   },
+   {
+    "titlu": "Podișul Someșan",
+    "puncte": [
+     "Este situat la nord de cele două Someșe (Mic, Mare).",
+     "Prezintă structură monoclinală, ce a favorizat formarea cuestelor.",
+     "Înclină de la N spre S.",
+     "Prezintă roci mai rezistente, dar și argilă (alunecări de teren)."
+    ]
+   },
+   {
+    "titlu": "Câmpia Transilvaniei",
+    "puncte": [
+     "Este situată între Someșe și Mureș.",
+     "Are aspect vălurit, altitudini de 500–600 m.",
+     "Este numită câmpie datorită utilizării agricole.",
+     "Prezintă domuri gazeifere."
+    ]
+   },
+   {
+    "titlu": "Podișul Târnavelor",
+    "puncte": [
+     "Este situat la sud de Mureș.",
+     "Înclină de la est spre vest."
+    ]
+   }
+  ]
+ }
+}

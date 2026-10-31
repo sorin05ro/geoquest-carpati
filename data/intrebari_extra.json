@@ -1,0 +1,3007 @@
+[
+ {
+  "id": "X-ORI-001",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Carpații Orientali sunt situați în ……… Depresiunii Colinare a Transilvaniei.",
+  "explicatie_geo": "Carpații Orientali sunt la est de Depresiunea Colinară a Transilvaniei.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "variante": [
+   "sudul",
+   "nordul",
+   "vestul",
+   "estul"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-ORI-002",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Limita de nord a Carpaților Orientali este:",
+  "explicatie_geo": "La nord, Carpații Orientali ajung până la granița cu Ucraina.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "variante": [
+   "granița cu Ucraina",
+   "valea Moldovei",
+   "Pasul Oituz",
+   "Valea Prahovei"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-ORI-003",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Limita de sud-vest a Carpaților Orientali este:",
+  "explicatie_geo": "Prahova separă Carpații Orientali de Carpații Meridionali.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "variante": [
+   "Valea Prahovei",
+   "Valea Oltului",
+   "Valea Jiului",
+   "Culoarul Timiș–Cerna"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-ORI-004",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o1",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Ce diferență de altitudine există între Carpații Orientali și Podișul Moldovei?",
+  "explicatie_geo": "La est, Orientalii domină Podișul Moldovei cu 700–1000 m.",
+  "sursa": "La est domină, printr-o diferență de altitudine de 700–1000 m, Podișul Moldovei și Subcarpații Moldovei.",
+  "variante": [
+   "300–400 m",
+   "2000–2500 m",
+   "700–1000 m",
+   "100–200 m"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-ORI-005",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o1",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "La sud-vest, Carpații Orientali sunt dominați de înălțimile de peste 2000 m ale Carpaților Meridionali.",
+  "explicatie_geo": "Corect: Meridionalii sunt mai înalți.",
+  "sursa": "La sud-vest sunt dominați de înălțimile de peste 2000 m ale Carpaților Meridionali.",
+  "adevarat": true
+ },
+ {
+  "id": "X-ORI-006",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o1",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "La vest de Carpații Orientali se află Podișul Moldovei.",
+  "explicatie_geo": "Podișul Moldovei e la EST; la vest e Depresiunea Colinară a Transilvaniei.",
+  "sursa": "La est domină, printr-o diferență de altitudine de 700–1000 m, Podișul Moldovei și Subcarpații Moldovei.",
+  "adevarat": false
+ },
+ {
+  "id": "X-ORI-007",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o1",
+  "tip": "completare",
+  "dificultate": 2,
+  "enunt": "La sud, Carpații Orientali se învecinează cu Subcarpații ……",
+  "explicatie_geo": "La sud sunt Subcarpații Curburii.",
+  "sursa": "La sud se află Subcarpații Curburii, iar la vest Depresiunea Colinară a Transilvaniei, Dealurile de Vest și Câmpia de Vest.",
+  "raspunsuri_acceptate": [
+   "Curburii"
+  ]
+ },
+ {
+  "id": "X-ORI-008",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Înălțimea medie a Carpaților Orientali este de circa:",
+  "explicatie_geo": "Orientalii au înălțimi mijlocii, circa 1300 m.",
+  "sursa": "Au înălțimi mijlocii (circa 1300 m), rar trecând de 1800 m.",
+  "variante": [
+   "1150 m",
+   "2000 m",
+   "640 m",
+   "1300 m"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-ORI-009",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Culmile Carpaților Orientali sunt orientate în cea mai mare parte:",
+  "explicatie_geo": "Șirurile paralele de culmi merg NV–SE.",
+  "sursa": "Culmile se desfășoară în șiruri paralele, orientate în cea mai mare parte NV–SE (de la sud de Valea Trotușului se curbează spre SV).",
+  "variante": [
+   "N–S",
+   "E–V",
+   "NV–SE",
+   "NE–SV"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-ORI-010",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "În centrul Carpaților Orientali predomină:",
+  "explicatie_geo": "Vest – vulcanice, centru – cristaline, est și sud – sedimentare.",
+  "sursa": "Sunt alcătuiți din roci vulcanice (în vest), șisturi cristaline (în centru) și roci sedimentare cutate (la est și sud).",
+  "variante": [
+   "sarea",
+   "rocile vulcanice",
+   "șisturile cristaline",
+   "rocile sedimentare cutate"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-ORI-011",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Rocile sedimentare cutate din Carpații Orientali se află:",
+  "explicatie_geo": "Fâșia sedimentară e la est și sud.",
+  "sursa": "Sunt alcătuiți din roci vulcanice (în vest), șisturi cristaline (în centru) și roci sedimentare cutate (la est și sud).",
+  "variante": [
+   "la est și sud",
+   "doar în nord",
+   "în vest",
+   "în centru"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-ORI-012",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Carpații Orientali au o fragmentare accentuată, cu depresiuni largi.",
+  "explicatie_geo": "Corect: Maramureș, Giurgeu, Ciuc sunt depresiuni largi.",
+  "sursa": "Fragmentarea este accentuată: culmile închid depresiuni largi (Maramureșului, Giurgeului, Ciucului ș.a.).",
+  "adevarat": true
+ },
+ {
+  "id": "X-ORI-013",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Relieful glaciar apare cel mai bine în Munții Rodnei.",
+  "explicatie_geo": "Da, Rodnei au cel mai bine dezvoltat relief glaciar din Orientali.",
+  "sursa": "În munții înalți (Rodnei și, mai puțin, Maramureșului și Călimani) este întâlnit relieful glaciar.",
+  "adevarat": true
+ },
+ {
+  "id": "X-ORI-014",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Carpații Orientali trec frecvent de 2000 m altitudine.",
+  "explicatie_geo": "Rar trec de 1800 m; doar câteva vârfuri depășesc 2000 m.",
+  "sursa": "Au înălțimi mijlocii (circa 1300 m), rar trecând de 1800 m.",
+  "adevarat": false
+ },
+ {
+  "id": "X-ORI-015",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o2",
+  "tip": "completare",
+  "dificultate": 3,
+  "enunt": "De la sud de Valea ……, culmile Carpaților Orientali se curbează spre SV.",
+  "explicatie_geo": "Curbura începe la sud de Valea Trotușului.",
+  "sursa": "Culmile se desfășoară în șiruri paralele, orientate în cea mai mare parte NV–SE (de la sud de Valea Trotușului se curbează spre SV).",
+  "raspunsuri_acceptate": [
+   "Trotușului",
+   "Trotuș"
+  ]
+ },
+ {
+  "id": "X-ORI-016",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Cel mai înalt vârf al Carpaților Orientali este:",
+  "explicatie_geo": "Pietrosul Rodnei, 2303 m, în Munții Rodnei.",
+  "sursa": "Altitudinea maximă: 2303 m, Vf. Pietrosul Rodnei (Munții Rodnei).",
+  "variante": [
+   "Vf. Pietrosul Călimanilor (2100 m)",
+   "Vf. Pietrosul Rodnei (2303 m)",
+   "Vf. Ciucaș (1954 m)",
+   "Vf. Moldoveanu (2544 m)"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-ORI-017",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Munții vulcanici ai Grupei Nordice sunt:",
+  "explicatie_geo": "Oaș, Gutâi, Țibleș, Bârgău – lanțul vulcanic din nord.",
+  "sursa": "Roci vulcanice: Oaș, Gutâi, Țibleș, Bârgău. Roci metamorfice: Maramureșului, Rodnei, Suhard, Obcina Mestecăniș. Roci sedimentare: Obcina Feredeu, Obcina Mare.",
+  "variante": [
+   "Rodnei, Suhard, Maramureșului",
+   "Călimani, Gurghiu, Harghita",
+   "Oaș, Gutâi, Țibleș, Bârgău",
+   "Vrancei, Buzăului, Ciucaș"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-ORI-018",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Care dintre depresiuni NU aparține Grupei Nordice?",
+  "explicatie_geo": "Ciuc aparține Grupei Centrale.",
+  "sursa": "Depresiuni: Maramureșului, Dornelor, Câmpulung.",
+  "variante": [
+   "Depresiunea Câmpulung",
+   "Depresiunea Ciuc",
+   "Depresiunea Maramureșului",
+   "Depresiunea Dornelor"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-ORI-019",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Munții Rodnei sunt alcătuiți din roci:",
+  "explicatie_geo": "Rodnei sunt munți din roci metamorfice (cristaline).",
+  "sursa": "Roci vulcanice: Oaș, Gutâi, Țibleș, Bârgău. Roci metamorfice: Maramureșului, Rodnei, Suhard, Obcina Mestecăniș. Roci sedimentare: Obcina Feredeu, Obcina Mare.",
+  "variante": [
+   "sare",
+   "vulcanice",
+   "metamorfice",
+   "sedimentare"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-ORI-020",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Obcina Feredeu și Obcina Mare sunt alcătuite din roci:",
+  "explicatie_geo": "Obcinele Feredeu și Mare – roci sedimentare.",
+  "sursa": "Roci vulcanice: Oaș, Gutâi, Țibleș, Bârgău. Roci metamorfice: Maramureșului, Rodnei, Suhard, Obcina Mestecăniș. Roci sedimentare: Obcina Feredeu, Obcina Mare.",
+  "variante": [
+   "sedimentare",
+   "calcar și marmură",
+   "vulcanice",
+   "metamorfice"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-ORI-021",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "completare",
+  "dificultate": 3,
+  "enunt": "Limita sudică a Grupei Nordice: Depr. Dornelor – Pasul …… – valea Moldovei.",
+  "explicatie_geo": "Pasul Mestecăniș face parte din limita dintre Grupa Nordică și cea Centrală.",
+  "sursa": "Limite: N – granița cu Ucraina; S – aliniamentul Depr. Dornelor – Pasul Mestecăniș – valea Moldovei.",
+  "raspunsuri_acceptate": [
+   "Mestecăniș"
+  ]
+ },
+ {
+  "id": "X-ORI-022",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "În Grupa Nordică întâlnim relief vulcanic, glaciar și carstic.",
+  "explicatie_geo": "Corect: toate trei tipurile.",
+  "sursa": "Tipuri de relief: vulcanic, glaciar, carstic.",
+  "adevarat": true
+ },
+ {
+  "id": "X-ORI-023",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o4",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Altitudinea maximă a Grupei Centrale este:",
+  "explicatie_geo": "Pietrosul Călimanilor, 2100 m.",
+  "sursa": "Altitudinea maximă: 2100 m, Vf. Pietrosul Călimanilor (Munții Călimani).",
+  "variante": [
+   "2544 m – Vf. Moldoveanu",
+   "1954 m – Vf. Ciucaș",
+   "2303 m – Vf. Pietrosul Rodnei",
+   "2100 m – Vf. Pietrosul Călimanilor"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-ORI-024",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o4",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Limita sudică a Grupei Centrale este:",
+  "explicatie_geo": "Oituzul separă Grupa Centrală de Grupa Sudică.",
+  "sursa": "Limite: N – aliniamentul Depr. Dornelor – Pasul Mestecăniș – valea Moldovei; S – Pasul Oituz – valea Oituzului.",
+  "variante": [
+   "Valea Dunării",
+   "Pasul Mestecăniș",
+   "Valea Prahovei",
+   "Pasul Oituz – valea Oituzului"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-ORI-025",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o4",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Munții Ceahlău sunt alcătuiți din roci:",
+  "explicatie_geo": "Stânișoarei, Tarcău, Ceahlău – roci sedimentare.",
+  "sursa": "Roci vulcanice: Călimani, Gurghiu, Harghita. Roci metamorfice: Bistriței, Giurgeu, Hășmaș. Roci sedimentare: Stânișoarei, Tarcău, Ceahlău.",
+  "variante": [
+   "sedimentare",
+   "vulcanice",
+   "metamorfice",
+   "doar calcar"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-ORI-026",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o4",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Munții Bistriței, Giurgeu și Hășmaș sunt alcătuiți din roci:",
+  "explicatie_geo": "Fâșia centrală – roci metamorfice.",
+  "sursa": "Roci vulcanice: Călimani, Gurghiu, Harghita. Roci metamorfice: Bistriței, Giurgeu, Hășmaș. Roci sedimentare: Stânișoarei, Tarcău, Ceahlău.",
+  "variante": [
+   "metamorfice",
+   "vulcanice",
+   "sedimentare",
+   "sare"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-ORI-027",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o4",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Tipurile de relief din Grupa Centrală sunt:",
+  "explicatie_geo": "În Grupa Centrală – relief vulcanic și carstic.",
+  "sursa": "Tipuri de relief: vulcanic, carstic.",
+  "variante": [
+   "glaciar și vulcanic",
+   "pe conglomerate",
+   "doar glaciar",
+   "vulcanic și carstic"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-ORI-028",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o4",
+  "tip": "completare",
+  "dificultate": 2,
+  "enunt": "Depresiunile Grupei Centrale: Giurgeu, Ciuc și ……",
+  "explicatie_geo": "Giurgeu, Ciuc, Comănești.",
+  "sursa": "Depresiuni: Giurgeu, Ciuc, Comănești.",
+  "raspunsuri_acceptate": [
+   "Comănești"
+  ]
+ },
+ {
+  "id": "X-ORI-029",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o5",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Altitudinea maximă a Carpaților Curburii este:",
+  "explicatie_geo": "Vf. Ciucaș, 1954 m.",
+  "sursa": "Altitudinea maximă: 1954 m, Vf. Ciucaș (Munții Ciucaș).",
+  "variante": [
+   "1849 m – Vf. Bihor",
+   "2505 m – Vf. Omu",
+   "1954 m – Vf. Ciucaș",
+   "2100 m – Vf. Pietrosul Călimanilor"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-ORI-030",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o5",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Depresiunea din Grupa Sudică a Carpaților Orientali este:",
+  "explicatie_geo": "Depresiunea Brașov e în Carpații Curburii.",
+  "sursa": "Depresiunea Brașov.",
+  "variante": [
+   "Depresiunea Loviștei",
+   "Depresiunea Brașov",
+   "Depresiunea Ciuc",
+   "Depresiunea Hațeg"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-ORI-031",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o5",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Limita vestică a Grupei Sudice este:",
+  "explicatie_geo": "Prahova e limita vestică.",
+  "sursa": "Limite: N – Pasul Oituz – valea Oituzului; V – valea Prahovei.",
+  "variante": [
+   "valea Oltului",
+   "Pasul Oituz",
+   "valea Prahovei",
+   "valea Trotușului"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-ORI-032",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o5",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Munții Vrancei, Buzăului și Ciucaș sunt alcătuiți din roci vulcanice.",
+  "explicatie_geo": "Sunt alcătuiți din roci sedimentare.",
+  "sursa": "Roci sedimentare: Vrancei, Buzăului, Ciucaș.",
+  "adevarat": false
+ },
+ {
+  "id": "X-ORI-033",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o5",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "În Carpații Curburii predomină relieful carstic.",
+  "explicatie_geo": "Corect, conform lecției.",
+  "sursa": "Tip de relief: carstic.",
+  "adevarat": true
+ },
+ {
+  "id": "X-ORI-034",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "potrivire",
+  "dificultate": 2,
+  "enunt": "Asociază depresiunea cu grupa Carpaților Orientali.",
+  "explicatie_geo": "Nord: Maramureș, Dornelor; centru: Ciuc, Giurgeu; sud: Brașov.",
+  "sursa": "Depresiuni: Maramureșului, Dornelor, Câmpulung.",
+  "coloanaA": [
+   "Depresiunea Maramureșului",
+   "Depresiunea Ciuc",
+   "Depresiunea Brașov",
+   "Depresiunea Comănești"
+  ],
+  "coloanaB": [
+   "Grupa Nordică",
+   "Grupa Centrală",
+   "Grupa Sudică"
+  ],
+  "perechi": {
+   "0": 0,
+   "1": 1,
+   "2": 2,
+   "3": 1
+  },
+  "distractor": []
+ },
+ {
+  "id": "X-ORI-035",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "potrivire",
+  "dificultate": 2,
+  "enunt": "Asociază munții cu tipul de rocă.",
+  "explicatie_geo": "Vulcanice – vest; metamorfice – centru; sedimentare – est și sud.",
+  "sursa": "Roci vulcanice: Călimani, Gurghiu, Harghita. Roci metamorfice: Bistriței, Giurgeu, Hășmaș. Roci sedimentare: Stânișoarei, Tarcău, Ceahlău.",
+  "coloanaA": [
+   "Munții Harghita",
+   "Munții Hășmaș",
+   "Munții Tarcău",
+   "Munții Gutâi"
+  ],
+  "coloanaB": [
+   "roci vulcanice",
+   "roci metamorfice",
+   "roci sedimentare"
+  ],
+  "perechi": {
+   "0": 0,
+   "1": 1,
+   "2": 2,
+   "3": 0
+  },
+  "distractor": []
+ },
+ {
+  "id": "X-ORI-036",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "ordonare",
+  "dificultate": 1,
+  "enunt": "Ordonează grupele Carpaților Orientali de la nord la sud.",
+  "explicatie_geo": "Nordică → Centrală → Sudică.",
+  "sursa": "Limite: N – granița cu Ucraina; S – aliniamentul Depr. Dornelor – Pasul Mestecăniș – valea Moldovei.",
+  "elemente": [
+   "Grupa Nordică",
+   "Grupa Centrală",
+   "Grupa Sudică"
+  ]
+ },
+ {
+  "id": "X-ORI-037",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "ordonare",
+  "dificultate": 1,
+  "enunt": "Ordonează vârfurile descrescător, după altitudine.",
+  "explicatie_geo": "2303 > 2100 > 1954.",
+  "sursa": "Altitudinea maximă: 2303 m, Vf. Pietrosul Rodnei (Munții Rodnei).",
+  "elemente": [
+   "Pietrosul Rodnei (2303 m)",
+   "Pietrosul Călimanilor (2100 m)",
+   "Ciucaș (1954 m)"
+  ]
+ },
+ {
+  "id": "X-ORI-038",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "ordonare",
+  "dificultate": 2,
+  "enunt": "Ordonează fâșiile de roci ale Carpaților Orientali de la vest la est.",
+  "explicatie_geo": "Vest: vulcanice → centru: cristaline → est: sedimentare.",
+  "sursa": "Sunt alcătuiți din roci vulcanice (în vest), șisturi cristaline (în centru) și roci sedimentare cutate (la est și sud).",
+  "elemente": [
+   "roci vulcanice",
+   "șisturi cristaline",
+   "roci sedimentare cutate"
+  ]
+ },
+ {
+  "id": "X-ORI-039",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o3",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Grupa Nordică – Carpații Maramureșului și Bucovinei.",
+  "sursa": "Altitudinea maximă: 2303 m, Vf. Pietrosul Rodnei (Munții Rodnei).",
+  "indicii": [
+   "Am munți vulcanici: Oaș, Gutâi, Țibleș.",
+   "Am Depresiunea Maramureșului.",
+   "Aici e Vf. Pietrosul Rodnei, 2303 m."
+  ],
+  "raspuns": "Grupa Nordică a Carpaților Orientali",
+  "variante": [
+   "Grupa Nordică a Carpaților Orientali",
+   "Grupa Centrală a Carpaților Orientali",
+   "Grupa Sudică a Carpaților Orientali",
+   "Grupa Făgăraș"
+  ]
+ },
+ {
+  "id": "X-ORI-040",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o4",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Grupa Centrală – Carpații Moldo-Transilvani.",
+  "sursa": "Altitudinea maximă: 2100 m, Vf. Pietrosul Călimanilor (Munții Călimani).",
+  "indicii": [
+   "Am cel mai lung lanț vulcanic: Călimani, Gurghiu, Harghita.",
+   "Am depresiunile Giurgeu și Ciuc.",
+   "La sud mă opresc la Pasul Oituz."
+  ],
+  "raspuns": "Grupa Centrală a Carpaților Orientali",
+  "variante": [
+   "Grupa Nordică a Carpaților Orientali",
+   "Grupa Centrală a Carpaților Orientali",
+   "Grupa Sudică a Carpaților Orientali",
+   "Munții Apuseni"
+  ]
+ },
+ {
+  "id": "X-ORI-041",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o5",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Grupa Sudică – Carpații Curburii.",
+  "sursa": "Altitudinea maximă: 1954 m, Vf. Ciucaș (Munții Ciucaș).",
+  "indicii": [
+   "Sunt alcătuită din roci sedimentare.",
+   "Am Depresiunea Brașov.",
+   "Vârful meu cel mai înalt e Ciucaș, 1954 m."
+  ],
+  "raspuns": "Grupa Sudică a Carpaților Orientali",
+  "variante": [
+   "Grupa Sudică a Carpaților Orientali",
+   "Grupa Bucegi",
+   "Grupa Centrală a Carpaților Orientali",
+   "Munții Banatului"
+  ]
+ },
+ {
+  "id": "X-MER-001",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Carpații Meridionali mai sunt numiți și:",
+  "explicatie_geo": "Fiind cei mai înalți, sunt numiți „Alpii Transilvaniei”.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "variante": [
+   "Alpii Transilvaniei",
+   "Munții Ascunși",
+   "Carpații Curburii",
+   "Carpații Moldo-Transilvani"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-002",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Limita estică a Carpaților Meridionali este:",
+  "explicatie_geo": "Prahova – la est.",
+  "sursa": "Limite: E – Valea Prahovei; S – Subcarpații Curburii și Getici, Podișul Mehedinți; V – Culoarul Timiș–Cerna; N – Valea Bistrei – Depr. Hațeg – Culoarul Orăștie – Depr. Transilvaniei.",
+  "variante": [
+   "Valea Prahovei",
+   "Valea Oltului",
+   "Valea Jiului",
+   "Culoarul Timiș–Cerna"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-003",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Limita vestică a Carpaților Meridionali este:",
+  "explicatie_geo": "Culoarul Timiș–Cerna – la vest.",
+  "sursa": "Limite: E – Valea Prahovei; S – Subcarpații Curburii și Getici, Podișul Mehedinți; V – Culoarul Timiș–Cerna; N – Valea Bistrei – Depr. Hațeg – Culoarul Orăștie – Depr. Transilvaniei.",
+  "variante": [
+   "Culoarul Timiș–Cerna",
+   "Valea Prahovei",
+   "Valea Dunării",
+   "Valea Barcăului"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-004",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Carpații Meridionali s-au format prin:",
+  "explicatie_geo": "Încrețire – orogeneza alpină.",
+  "sursa": "S-au format prin încrețire în timpul orogenezei alpine.",
+  "variante": [
+   "scufundarea unui compartiment",
+   "încrețire, în timpul orogenezei alpine",
+   "erupții vulcanice",
+   "acțiunea vântului"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-MER-005",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Altitudinea medie a Carpaților Meridionali este:",
+  "explicatie_geo": "1150 m – cea mai mare medie din Carpații românești.",
+  "sursa": "Altitudinea maximă este de 2544 m, în Vf. Moldoveanu (Munții Făgăraș); altitudinea medie este de 1150 m.",
+  "variante": [
+   "2544 m",
+   "1150 m",
+   "640 m",
+   "1300 m"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-MER-006",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Rocile care apar pe scară largă în Carpații Meridionali sunt:",
+  "explicatie_geo": "Predomină rocile metamorfice (șisturi cristaline).",
+  "sursa": "Prezintă roci metamorfice pe scară largă, dar întâlnim și calcar și conglomerate.",
+  "variante": [
+   "sarea",
+   "rocile vulcanice",
+   "argila",
+   "rocile metamorfice"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-MER-007",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Carpații Meridionali prezintă masivitate accentuată, datorată durității rocilor.",
+  "explicatie_geo": "Corect.",
+  "sursa": "Prezintă masivitate accentuată, datorată durității rocilor.",
+  "adevarat": true
+ },
+ {
+  "id": "X-MER-008",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "În Carpații Meridionali întâlnim relief vulcanic.",
+  "explicatie_geo": "Meridionalii au relief glaciar, carstic și pe conglomerate – nu vulcanic.",
+  "sursa": "Tipuri de relief: glaciar, carstic, pe conglomerate.",
+  "adevarat": false
+ },
+ {
+  "id": "X-MER-009",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m1",
+  "tip": "completare",
+  "dificultate": 3,
+  "enunt": "La sud, Carpații Meridionali se învecinează cu Subcarpații Curburii și Getici și cu Podișul ……",
+  "explicatie_geo": "Podișul Mehedinți.",
+  "sursa": "Limite: E – Valea Prahovei; S – Subcarpații Curburii și Getici, Podișul Mehedinți; V – Culoarul Timiș–Cerna; N – Valea Bistrei – Depr. Hațeg – Culoarul Orăștie – Depr. Transilvaniei.",
+  "raspunsuri_acceptate": [
+   "Mehedinți"
+  ]
+ },
+ {
+  "id": "X-MER-010",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Grupa Bucegi este cuprinsă între:",
+  "explicatie_geo": "Bucegi: Prahova – Dâmbovița.",
+  "sursa": "Cuprinsă între valea Prahovei și valea Dâmboviței.",
+  "variante": [
+   "valea Oltului și valea Jiului",
+   "valea Prahovei și valea Dâmboviței",
+   "valea Dâmboviței și valea Oltului",
+   "valea Jiului și Culoarul Timiș–Cerna"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-MER-011",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Grupa Făgăraș este cuprinsă între:",
+  "explicatie_geo": "Făgăraș: Dâmbovița – Olt.",
+  "sursa": "Cuprinsă între valea Dâmboviței și valea Oltului.",
+  "variante": [
+   "valea Dâmboviței și valea Oltului",
+   "valea Prahovei și valea Dâmboviței",
+   "valea Mureșului și valea Barcăului",
+   "valea Oltului și valea Jiului"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-012",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Vf. Omu (2505 m) se află în grupa:",
+  "explicatie_geo": "Omu e cel mai înalt vârf al Grupei Bucegi.",
+  "sursa": "Altitudinea maximă: 2505 m, Vf. Omu.",
+  "variante": [
+   "Bucegi",
+   "Făgăraș",
+   "Parâng",
+   "Retezat-Godeanu"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-013",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Munții Bucegi sunt alcătuiți din:",
+  "explicatie_geo": "Bucegi – conglomerate; Piatra Craiului – calcar; Leaota – șisturi cristaline.",
+  "sursa": "Roci: șisturi cristaline (Leaota), conglomerate (Bucegi), calcar (Piatra Craiului).",
+  "variante": [
+   "calcar",
+   "conglomerate",
+   "roci vulcanice",
+   "sare"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-MER-014",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Piatra Craiului este alcătuită din:",
+  "explicatie_geo": "Piatra Craiului – calcar.",
+  "sursa": "Roci: șisturi cristaline (Leaota), conglomerate (Bucegi), calcar (Piatra Craiului).",
+  "variante": [
+   "calcar",
+   "șisturi cristaline",
+   "conglomerate",
+   "roci vulcanice"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-015",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "completare",
+  "dificultate": 2,
+  "enunt": "Culoarul depresionar din Grupa Bucegi se numește Rucăr – ……",
+  "explicatie_geo": "Culoarul Rucăr – Bran.",
+  "sursa": "Culoarul depresionar Rucăr – Bran.",
+  "raspunsuri_acceptate": [
+   "Bran"
+  ]
+ },
+ {
+  "id": "X-MER-016",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Care munți NU aparțin Grupei Făgăraș?",
+  "explicatie_geo": "Șureanu aparțin Grupei Parâng.",
+  "sursa": "Șisturi cristaline (Făgăraș, Cozia, Frunții, Ghițu, Iezer).",
+  "variante": [
+   "Munții Ghițu",
+   "Munții Iezer",
+   "Munții Cozia",
+   "Munții Șureanu"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-MER-017",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Grupa Făgăraș prezintă relief carstic și glaciar.",
+  "explicatie_geo": "Corect.",
+  "sursa": "Relief carstic și glaciar.",
+  "adevarat": true
+ },
+ {
+  "id": "X-MER-018",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Grupa Parâng este cuprinsă între:",
+  "explicatie_geo": "Parâng: Olt – Jiu.",
+  "sursa": "Cuprinsă între valea Oltului și valea Jiului.",
+  "variante": [
+   "valea Jiului și Culoarul Timiș–Cerna",
+   "valea Dâmboviței și valea Oltului",
+   "valea Oltului și valea Jiului",
+   "valea Prahovei și valea Dâmboviței"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-MER-019",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Altitudinea maximă a Grupei Parâng este:",
+  "explicatie_geo": "Parângul Mare, 2519 m.",
+  "sursa": "Altitudinea maximă: 2519 m, Vf. Parângul Mare.",
+  "variante": [
+   "2505 m – Vf. Omu",
+   "2509 m – Vf. Peleaga",
+   "2519 m – Vf. Parângul Mare",
+   "2544 m – Vf. Moldoveanu"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-MER-020",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Depresiunea Petroșani aparține grupei:",
+  "explicatie_geo": "Petroșani – Grupa Parâng.",
+  "sursa": "Depresiunea Petroșani.",
+  "variante": [
+   "Făgăraș",
+   "Parâng",
+   "Retezat-Godeanu",
+   "Bucegi"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-MER-021",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Vf. Peleaga (2509 m) se află în grupa:",
+  "explicatie_geo": "Peleaga – cel mai înalt din Retezat-Godeanu.",
+  "sursa": "Altitudinea maximă: 2509 m, Vf. Peleaga.",
+  "variante": [
+   "Retezat-Godeanu",
+   "Bucegi",
+   "Făgăraș",
+   "Parâng"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-022",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Depresiunea Hațeg aparține grupei:",
+  "explicatie_geo": "Hațeg – Grupa Retezat-Godeanu.",
+  "sursa": "Depresiunea Hațeg.",
+  "variante": [
+   "Făgăraș",
+   "Retezat-Godeanu",
+   "Bucegi",
+   "Parâng"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-MER-023",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Grupa Retezat-Godeanu este cuprinsă între:",
+  "explicatie_geo": "Retezat-Godeanu: Jiu – Timiș–Cerna.",
+  "sursa": "Cuprinsă între valea Jiului și culoarul Timiș–Cerna.",
+  "variante": [
+   "valea Prahovei și valea Dâmboviței",
+   "valea Oltului și valea Jiului",
+   "valea Mureșului și valea Barcăului",
+   "valea Jiului și Culoarul Timiș–Cerna"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-MER-024",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Care munți aparțin Grupei Parâng?",
+  "explicatie_geo": "Parâng, Șureanu, Căpățânii, Lotrului.",
+  "sursa": "Șisturi cristaline și calcar (Parâng, Șureanu, Căpățânii, Lotrului).",
+  "variante": [
+   "Munții Țarcu",
+   "Munții Leaota",
+   "Munții Iezer",
+   "Munții Lotrului"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-MER-025",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "completare",
+  "dificultate": 3,
+  "enunt": "Munții Retezat, Godeanu, Mehedinți, Vâlcan și …… aparțin Grupei Retezat-Godeanu.",
+  "explicatie_geo": "Al cincilea masiv din listă e Țarcu.",
+  "sursa": "Șisturi cristaline și calcar (Retezat, Godeanu, Mehedinți, Vâlcan, Țarcu).",
+  "raspunsuri_acceptate": [
+   "Țarcu"
+  ]
+ },
+ {
+  "id": "X-MER-026",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Râul care traversează în totalitate Carpații Meridionali este:",
+  "explicatie_geo": "Oltul îi traversează complet; Dâmbovița și Jiul – parțial.",
+  "sursa": "Sunt traversați parțial de Dâmbovița și Jiu și în totalitate de Olt.",
+  "variante": [
+   "Prahova",
+   "Jiul",
+   "Oltul",
+   "Dâmbovița"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-MER-027",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Jiul traversează Carpații Meridionali în totalitate.",
+  "explicatie_geo": "Jiul și Dâmbovița îi traversează doar parțial.",
+  "sursa": "Sunt traversați parțial de Dâmbovița și Jiu și în totalitate de Olt.",
+  "adevarat": false
+ },
+ {
+  "id": "X-MER-028",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "completare",
+  "dificultate": 1,
+  "enunt": "Cel mai înalt vârf din Grupa Făgăraș (și din România) este Vf. ……",
+  "explicatie_geo": "Vf. Moldoveanu, 2544 m.",
+  "sursa": "Altitudinea maximă: 2544 m, Vf. Moldoveanu.",
+  "raspunsuri_acceptate": [
+   "Moldoveanu"
+  ]
+ },
+ {
+  "id": "X-MER-029",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "ordonare",
+  "dificultate": 2,
+  "enunt": "Ordonează vârfurile descrescător, după altitudine.",
+  "explicatie_geo": "Moldoveanu 2544 > Parângul Mare 2519 > Peleaga 2509 > Omu 2505.",
+  "sursa": "Altitudinea maximă este de 2544 m, în Vf. Moldoveanu (Munții Făgăraș); altitudinea medie este de 1150 m.",
+  "elemente": [
+   "Moldoveanu (2544 m)",
+   "Parângul Mare (2519 m)",
+   "Peleaga (2509 m)",
+   "Omu (2505 m)"
+  ]
+ },
+ {
+  "id": "X-MER-030",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "ordonare",
+  "dificultate": 1,
+  "enunt": "Ordonează grupele Carpaților Meridionali de la est la vest.",
+  "explicatie_geo": "Bucegi → Făgăraș → Parâng → Retezat-Godeanu.",
+  "sursa": "Cuprinsă între valea Prahovei și valea Dâmboviței.",
+  "elemente": [
+   "Grupa Bucegi",
+   "Grupa Făgăraș",
+   "Grupa Parâng",
+   "Grupa Retezat-Godeanu"
+  ]
+ },
+ {
+  "id": "X-MER-031",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "ordonare",
+  "dificultate": 2,
+  "enunt": "Ordonează râurile-limită ale Carpaților Meridionali de la est la vest.",
+  "explicatie_geo": "Prahova → Dâmbovița → Olt → Jiu → Timiș–Cerna.",
+  "sursa": "Cuprinsă între valea Prahovei și valea Dâmboviței.",
+  "elemente": [
+   "Prahova",
+   "Dâmbovița",
+   "Olt",
+   "Jiu",
+   "Timiș–Cerna"
+  ]
+ },
+ {
+  "id": "X-MER-032",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "potrivire",
+  "dificultate": 2,
+  "enunt": "Asociază vârful cu grupa.",
+  "explicatie_geo": "Omu – Bucegi; Moldoveanu – Făgăraș; Parângul Mare – Parâng; Peleaga – Retezat-Godeanu.",
+  "sursa": "Altitudinea maximă: 2509 m, Vf. Peleaga.",
+  "coloanaA": [
+   "Vf. Omu",
+   "Vf. Moldoveanu",
+   "Vf. Parângul Mare",
+   "Vf. Peleaga"
+  ],
+  "coloanaB": [
+   "Grupa Bucegi",
+   "Grupa Făgăraș",
+   "Grupa Parâng",
+   "Grupa Retezat-Godeanu"
+  ],
+  "perechi": {
+   "0": 0,
+   "1": 1,
+   "2": 2,
+   "3": 3
+  },
+  "distractor": []
+ },
+ {
+  "id": "X-MER-033",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m4",
+  "tip": "potrivire",
+  "dificultate": 2,
+  "enunt": "Asociază depresiunea cu grupa.",
+  "explicatie_geo": "Rucăr–Bran – Bucegi; Loviștei – Făgăraș; Petroșani – Parâng; Hațeg – Retezat-Godeanu.",
+  "sursa": "Depresiunea Loviștei.",
+  "coloanaA": [
+   "Culoarul Rucăr – Bran",
+   "Depresiunea Loviștei",
+   "Depresiunea Petroșani",
+   "Depresiunea Hațeg"
+  ],
+  "coloanaB": [
+   "Grupa Bucegi",
+   "Grupa Făgăraș",
+   "Grupa Parâng",
+   "Grupa Retezat-Godeanu"
+  ],
+  "perechi": {
+   "0": 0,
+   "1": 1,
+   "2": 2,
+   "3": 3
+  },
+  "distractor": []
+ },
+ {
+  "id": "X-MER-034",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Grupa Făgăraș.",
+  "sursa": "Altitudinea maximă: 2544 m, Vf. Moldoveanu.",
+  "indicii": [
+   "Sunt cuprinsă între Dâmbovița și Olt.",
+   "Am Depresiunea Loviștei.",
+   "Aici e cel mai înalt vârf din țară."
+  ],
+  "raspuns": "Grupa Făgăraș",
+  "variante": [
+   "Grupa Făgăraș",
+   "Grupa Bucegi",
+   "Grupa Parâng",
+   "Grupa Retezat-Godeanu"
+  ]
+ },
+ {
+  "id": "X-MER-035",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m2",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Grupa Bucegi.",
+  "sursa": "Altitudinea maximă: 2505 m, Vf. Omu.",
+  "indicii": [
+   "Am munți din conglomerate și calcar.",
+   "Am culoarul Rucăr – Bran.",
+   "Vârful meu cel mai înalt e Omu."
+  ],
+  "raspuns": "Grupa Bucegi",
+  "variante": [
+   "Grupa Bucegi",
+   "Grupa Făgăraș",
+   "Grupa Sudică a Carpaților Orientali",
+   "Grupa Parâng"
+  ]
+ },
+ {
+  "id": "X-MER-036",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Grupa Retezat-Godeanu.",
+  "sursa": "Depresiunea Hațeg.",
+  "indicii": [
+   "Sunt cea mai vestică grupă a Meridionalilor.",
+   "Am munții Vâlcan, Țarcu, Mehedinți.",
+   "Am Depresiunea Hațeg și Vf. Peleaga."
+  ],
+  "raspuns": "Grupa Retezat-Godeanu",
+  "variante": [
+   "Grupa Retezat-Godeanu",
+   "Grupa Parâng",
+   "Munții Banatului",
+   "Munții Poiana Ruscă"
+  ]
+ },
+ {
+  "id": "X-MER-037",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m3",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Grupa Parâng.",
+  "sursa": "Altitudinea maximă: 2519 m, Vf. Parângul Mare.",
+  "indicii": [
+   "Sunt între Olt și Jiu.",
+   "Am munții Șureanu, Căpățânii, Lotrului.",
+   "Am Depresiunea Petroșani."
+  ],
+  "raspuns": "Grupa Parâng",
+  "variante": [
+   "Grupa Parâng",
+   "Grupa Făgăraș",
+   "Grupa Retezat-Godeanu",
+   "Grupa Bucegi"
+  ]
+ },
+ {
+  "id": "X-OCC-001",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Carpații Occidentali reprezintă:",
+  "explicatie_geo": "Sunt cei mai joși și mai fragmentați Carpați.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "variante": [
+   "cea mai joasă și mai fragmentată unitate carpatică",
+   "cea mai înaltă unitate carpatică",
+   "o depresiune colinară",
+   "o unitate formată doar din roci vulcanice"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-OCC-002",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Limita sudică a Carpaților Occidentali este:",
+  "explicatie_geo": "Dunărea – la sud.",
+  "sursa": "Limite: S – Valea Dunării; N – Valea Barcăului; E – Depresiunea Transilvaniei, Culoarul Alba Iulia – Turda, Culoarul Orăștie, Depr. Hațeg, Valea Bistrei, Culoarul Timiș–Cerna; V – Câmpia și Dealurile de Vest.",
+  "variante": [
+   "Valea Mureșului",
+   "Valea Prahovei",
+   "Valea Dunării",
+   "Valea Barcăului"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-OCC-003",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Altitudinea medie a Carpaților Occidentali este:",
+  "explicatie_geo": "640 m – cea mai mică medie dintre Carpați.",
+  "sursa": "Altitudinea maximă este de 1849 m, în Vf. Bihor; altitudinea medie este de 640 m.",
+  "variante": [
+   "1150 m",
+   "640 m",
+   "1300 m",
+   "1849 m"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-OCC-004",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Altitudinea maximă a Carpaților Occidentali este:",
+  "explicatie_geo": "Vf. Bihor, 1849 m.",
+  "sursa": "Altitudinea maximă este de 1849 m, în Vf. Bihor; altitudinea medie este de 640 m.",
+  "variante": [
+   "1374 m – Vf. Padeș",
+   "1849 m – Vf. Bihor",
+   "2544 m – Vf. Moldoveanu",
+   "1447 m – Vf. Semenic"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-OCC-005",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Tipurile de relief specifice Carpaților Occidentali sunt:",
+  "explicatie_geo": "Relief carstic și vulcanic.",
+  "sursa": "Prezintă relief carstic și vulcanic.",
+  "variante": [
+   "pe conglomerate și glaciar",
+   "glaciar și vulcanic",
+   "carstic și vulcanic",
+   "doar glaciar"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-OCC-006",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Carpații Occidentali sunt alcătuiți din roci metamorfice, sedimentare și vulcanice.",
+  "explicatie_geo": "Corect.",
+  "sursa": "Prezintă roci metamorfice, sedimentare, vulcanice.",
+  "adevarat": true
+ },
+ {
+  "id": "X-OCC-007",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "La vest, Carpații Occidentali se învecinează cu Depresiunea Transilvaniei.",
+  "explicatie_geo": "La vest sunt Câmpia și Dealurile de Vest; Depresiunea Transilvaniei e la est.",
+  "sursa": "Limite: S – Valea Dunării; N – Valea Barcăului; E – Depresiunea Transilvaniei, Culoarul Alba Iulia – Turda, Culoarul Orăștie, Depr. Hațeg, Valea Bistrei, Culoarul Timiș–Cerna; V – Câmpia și Dealurile de Vest.",
+  "adevarat": false
+ },
+ {
+  "id": "X-OCC-008",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c1",
+  "tip": "completare",
+  "dificultate": 2,
+  "enunt": "Limita nordică a Carpaților Occidentali este Valea ……",
+  "explicatie_geo": "Valea Barcăului.",
+  "sursa": "Limite: S – Valea Dunării; N – Valea Barcăului; E – Depresiunea Transilvaniei, Culoarul Alba Iulia – Turda, Culoarul Orăștie, Depr. Hațeg, Valea Bistrei, Culoarul Timiș–Cerna; V – Câmpia și Dealurile de Vest.",
+  "raspunsuri_acceptate": [
+   "Barcăului",
+   "Barcău"
+  ]
+ },
+ {
+  "id": "X-OCC-009",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Munții Banatului sunt cuprinși între:",
+  "explicatie_geo": "Banat: Dunăre – Timiș.",
+  "sursa": "Sunt cuprinși între valea Dunării și valea Timișului.",
+  "variante": [
+   "valea Mureșului și valea Barcăului",
+   "valea Jiului și valea Oltului",
+   "valea Dunării și valea Timișului",
+   "valea Timișului și valea Mureșului"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-OCC-010",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Altitudinea maximă a Munților Banatului este:",
+  "explicatie_geo": "Vf. Semenic, 1447 m.",
+  "sursa": "Altitudinea maximă: 1447 m, Vf. Semenic.",
+  "variante": [
+   "1849 m – Vf. Bihor",
+   "1447 m – Vf. Semenic",
+   "1374 m – Vf. Padeș",
+   "1954 m – Vf. Ciucaș"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-OCC-011",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Munții Poiana Ruscă sunt cuprinși între:",
+  "explicatie_geo": "Poiana Ruscă: Timiș – Mureș.",
+  "sursa": "Sunt cuprinși între valea Timișului și valea Mureșului.",
+  "variante": [
+   "valea Mureșului și valea Barcăului",
+   "valea Timișului și valea Mureșului",
+   "valea Oltului și valea Jiului",
+   "valea Dunării și valea Timișului"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-OCC-012",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Altitudinea maximă a Munților Poiana Ruscă este:",
+  "explicatie_geo": "Vf. Padeș, 1374 m.",
+  "sursa": "Altitudinea maximă: 1374 m, Vf. Padeș.",
+  "variante": [
+   "1849 m – Vf. Bihor",
+   "1080 m – Dl. Bichiș",
+   "1447 m – Vf. Semenic",
+   "1374 m – Vf. Padeș"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-OCC-013",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Care masiv NU aparține Munților Banatului?",
+  "explicatie_geo": "Vlădeasa aparține Munților Apuseni.",
+  "sursa": "Masive: Semenic, Almăjului, Aninei, Locvei, Dognecei.",
+  "variante": [
+   "Locvei",
+   "Aninei",
+   "Semenic",
+   "Vlădeasa"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-OCC-014",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "completare",
+  "dificultate": 2,
+  "enunt": "Depresiunile din Munții Banatului sunt Caraș-Ezeriș și ……",
+  "explicatie_geo": "Depresiunea Almăjului.",
+  "sursa": "Depresiuni: Caraș-Ezeriș, Almăjului.",
+  "raspunsuri_acceptate": [
+   "Almăjului",
+   "Almăj"
+  ]
+ },
+ {
+  "id": "X-OCC-015",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "În Munții Poiana Ruscă apare și marmura.",
+  "explicatie_geo": "Corect – roci metamorfice și calcar, și marmură.",
+  "sursa": "Roci metamorfice și calcar (și marmură); relief carstic.",
+  "adevarat": true
+ },
+ {
+  "id": "X-OCC-016",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Munții Apuseni sunt cuprinși între:",
+  "explicatie_geo": "Apuseni: Mureș – Barcău.",
+  "sursa": "Sunt cuprinși între valea Mureșului și valea Barcăului.",
+  "variante": [
+   "valea Dunării și valea Timișului",
+   "valea Timișului și valea Mureșului",
+   "valea Someșului și valea Barcăului",
+   "valea Mureșului și valea Barcăului"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-OCC-017",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Cum se numește modul de dispunere a rocilor în Munții Apuseni?",
+  "explicatie_geo": "Rocile diferite alcătuiesc un „mozaic petrografic”.",
+  "sursa": "Roci metamorfice, calcar și roci vulcanice, dispuse sub formă de „mozaic petrografic”.",
+  "variante": [
+   "mozaic petrografic",
+   "fâșii paralele",
+   "cute diapire",
+   "structură monoclinală"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-OCC-018",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "grila",
+  "dificultate": 3,
+  "enunt": "Depresiunile-golf din Munții Apuseni s-au format datorită:",
+  "explicatie_geo": "Tectonica „în clape de pian” a format depresiunile-golf.",
+  "sursa": "Depresiuni-golf (formate datorită tectonicii „în clape de pian”): Zarand, Brad, Beiuș, Vad-Borod, Zlatna.",
+  "variante": [
+   "diapirismului",
+   "tectonicii „în clape de pian”",
+   "eroziunii glaciare",
+   "erupțiilor vulcanice"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-OCC-019",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Care este o depresiune-golf din Munții Apuseni?",
+  "explicatie_geo": "Zarand, Brad, Beiuș, Vad-Borod, Zlatna.",
+  "sursa": "Depresiuni-golf (formate datorită tectonicii „în clape de pian”): Zarand, Brad, Beiuș, Vad-Borod, Zlatna.",
+  "variante": [
+   "Depresiunea Ciuc",
+   "Depresiunea Beiuș",
+   "Depresiunea Hațeg",
+   "Depresiunea Loviștei"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-OCC-020",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Trecerea de la Apuseni spre Carpații Orientali se face prin:",
+  "explicatie_geo": "În nord, „munții ascunși” fac trecerea spre Orientali.",
+  "sursa": "În nord, trecerea către Orientali se face printr-o serie de măguri cristaline numite „munți ascunși”.",
+  "variante": [
+   "Valea Prahovei",
+   "„munții ascunși” (măguri cristaline)",
+   "Pasul Oituz",
+   "Culoarul Timiș–Cerna"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-OCC-021",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Care masiv aparține Munților Apuseni?",
+  "explicatie_geo": "Metaliferi sunt în Apuseni.",
+  "sursa": "Masive: Bihor, Zarandului, Metaliferi, Trascău, Codru-Moma, Vlădeasa, Gilău, Pădurea Craiului, Muntele Mare, Plopiș, Meseș.",
+  "variante": [
+   "Munții Metaliferi",
+   "Munții Semenic",
+   "Munții Țarcu",
+   "Munții Gurghiu"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-OCC-022",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "completare",
+  "dificultate": 3,
+  "enunt": "Cel mai înalt vârf al Munților Apuseni este Vf. Bihor, numit și ……",
+  "explicatie_geo": "Vf. Bihor (Cucurbăta Mare), 1849 m.",
+  "sursa": "Altitudinea maximă: 1849 m, Vf. Bihor (Cucurbăta Mare).",
+  "raspunsuri_acceptate": [
+   "Cucurbăta Mare",
+   "Curcubăta Mare"
+  ]
+ },
+ {
+  "id": "X-OCC-023",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Munții Apuseni prezintă relief carstic și vulcanic.",
+  "explicatie_geo": "Corect.",
+  "sursa": "Relief carstic și vulcanic.",
+  "adevarat": true
+ },
+ {
+  "id": "X-OCC-024",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "ordonare",
+  "dificultate": 1,
+  "enunt": "Ordonează diviziunile Carpaților Occidentali de la sud la nord.",
+  "explicatie_geo": "Banat → Poiana Ruscă → Apuseni.",
+  "sursa": "Sunt cuprinși între valea Dunării și valea Timișului.",
+  "elemente": [
+   "Munții Banatului",
+   "Munții Poiana Ruscă",
+   "Munții Apuseni"
+  ]
+ },
+ {
+  "id": "X-OCC-025",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "ordonare",
+  "dificultate": 1,
+  "enunt": "Ordonează vârfurile descrescător, după altitudine.",
+  "explicatie_geo": "Bihor 1849 > Semenic 1447 > Padeș 1374.",
+  "sursa": "Altitudinea maximă este de 1849 m, în Vf. Bihor; altitudinea medie este de 640 m.",
+  "elemente": [
+   "Vf. Bihor (1849 m)",
+   "Vf. Semenic (1447 m)",
+   "Vf. Padeș (1374 m)"
+  ]
+ },
+ {
+  "id": "X-OCC-026",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "potrivire",
+  "dificultate": 2,
+  "enunt": "Asociază masivul cu diviziunea Carpaților Occidentali.",
+  "explicatie_geo": "Semenic, Aninei – Banat; Trascău, Gilău – Apuseni.",
+  "sursa": "Masive: Bihor, Zarandului, Metaliferi, Trascău, Codru-Moma, Vlădeasa, Gilău, Pădurea Craiului, Muntele Mare, Plopiș, Meseș.",
+  "coloanaA": [
+   "Semenic",
+   "Trascău",
+   "Aninei",
+   "Gilău"
+  ],
+  "coloanaB": [
+   "Munții Banatului",
+   "Munții Poiana Ruscă",
+   "Munții Apuseni"
+  ],
+  "perechi": {
+   "0": 0,
+   "1": 2,
+   "2": 0,
+   "3": 2
+  },
+  "distractor": [
+   1
+  ]
+ },
+ {
+  "id": "X-OCC-027",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c3",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Munții Apuseni.",
+  "sursa": "Roci metamorfice, calcar și roci vulcanice, dispuse sub formă de „mozaic petrografic”.",
+  "indicii": [
+   "Am depresiuni-golf: Zarand, Beiuș, Brad.",
+   "Rocile mele formează un „mozaic petrografic”.",
+   "Am cel mai înalt vârf din Carpații Occidentali."
+  ],
+  "raspuns": "Munții Apuseni",
+  "variante": [
+   "Munții Apuseni",
+   "Munții Banatului",
+   "Munții Poiana Ruscă",
+   "Grupa Retezat-Godeanu"
+  ]
+ },
+ {
+  "id": "X-OCC-028",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Munții Banatului.",
+  "sursa": "Altitudinea maximă: 1447 m, Vf. Semenic.",
+  "indicii": [
+   "Sunt între Dunăre și Timiș.",
+   "Am masivele Aninei și Locvei.",
+   "Vârful meu cel mai înalt e Semenic."
+  ],
+  "raspuns": "Munții Banatului",
+  "variante": [
+   "Munții Banatului",
+   "Munții Poiana Ruscă",
+   "Munții Apuseni",
+   "Grupa Retezat-Godeanu"
+  ]
+ },
+ {
+  "id": "X-OCC-029",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c2",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Munții Poiana Ruscă.",
+  "sursa": "Altitudinea maximă: 1374 m, Vf. Padeș.",
+  "indicii": [
+   "Sunt între Timiș și Mureș.",
+   "Am și marmură.",
+   "Vârful meu cel mai înalt e Padeș."
+  ],
+  "raspuns": "Munții Poiana Ruscă",
+  "variante": [
+   "Munții Poiana Ruscă",
+   "Munții Banatului",
+   "Munții Apuseni",
+   "Grupa Parâng"
+  ]
+ },
+ {
+  "id": "X-DCT-001",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Depresiunea Colinară a Transilvaniei este numită „depresiune” deoarece:",
+  "explicatie_geo": "Depresiune = mai joasă decât munții din jur.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "variante": [
+   "e acoperită de lacuri",
+   "are altitudini mai joase decât arcul carpatic",
+   "s-a format prin erupții",
+   "are cele mai mari altitudini"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-002",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d1",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Depresiunea Colinară a Transilvaniei este numită „colinară” datorită:",
+  "explicatie_geo": "Colinară – conform lecției, datorită stadiului incipient de eroziune.",
+  "sursa": "Este denumită colinară datorită stadiului incipient de eroziune.",
+  "variante": [
+   "culmilor orientate E–V",
+   "prezenței ghețarilor",
+   "prezenței vulcanilor",
+   "stadiului incipient de eroziune"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-DCT-003",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d1",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "La nord-vest, Depresiunea Colinară a Transilvaniei este limitată de:",
+  "explicatie_geo": "NV – „munții ascunși”.",
+  "sursa": "Limite: E, S, V – Carpații; NV – „munții ascunși”.",
+  "variante": [
+   "Carpații Meridionali",
+   "Valea Prahovei",
+   "Dunăre",
+   "„munții ascunși”"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-DCT-004",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d1",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Depresiunea Colinară a Transilvaniei este înconjurată de Carpați la est, sud și vest.",
+  "explicatie_geo": "Corect.",
+  "sursa": "Limite: E, S, V – Carpații; NV – „munții ascunși”.",
+  "adevarat": true
+ },
+ {
+  "id": "X-DCT-005",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d1",
+  "tip": "completare",
+  "dificultate": 2,
+  "enunt": "Depresiunea Colinară a Transilvaniei s-a format prin scufundarea unui compartiment ……",
+  "explicatie_geo": "Un compartiment carpatic s-a scufundat.",
+  "sursa": "S-a format prin scufundarea unui compartiment carpatic, urmată de sedimentarea și ridicarea inegală a acestuia.",
+  "raspunsuri_acceptate": [
+   "carpatic"
+  ]
+ },
+ {
+  "id": "X-DCT-006",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d2",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Care rocă din Depresiunea Colinară a Transilvaniei este mai puțin rezistentă?",
+  "explicatie_geo": "Argila, nisipul și sarea sunt mai puțin rezistente.",
+  "sursa": "Este formată pe roci sedimentare mai rezistente (gresii, marne, calcar) sau mai puțin rezistente (argilă, nisip, sare).",
+  "variante": [
+   "gresia",
+   "calcarul",
+   "marna",
+   "argila"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-DCT-007",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Diapirismul înseamnă:",
+  "explicatie_geo": "Diapirism = ascensiunea (urcarea) sării.",
+  "sursa": "Datorită prezenței sării apare fenomenul de diapirism (ascensiunea sării).",
+  "variante": [
+   "topirea ghețarilor",
+   "ascensiunea sării",
+   "erupția unui vulcan",
+   "eroziunea vântului"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-008",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Cuestele sunt:",
+  "explicatie_geo": "Cuestele – dealuri asimetrice, pe straturi monoclinale.",
+  "sursa": "În regiunile cu straturi monoclinale apar dealuri asimetrice numite cueste.",
+  "variante": [
+   "vârfuri vulcanice",
+   "dealuri asimetrice formate pe straturi monoclinale",
+   "depresiuni glaciare",
+   "domuri gazeifere"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-009",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d2",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Alunecările de teren apar mai ales în zonele cu:",
+  "explicatie_geo": "Argilele favorizează alunecările de teren.",
+  "sursa": "Zonele în care sunt prezente argilele sunt afectate de alunecări de teren.",
+  "variante": [
+   "tuf vulcanic",
+   "argile",
+   "gresii",
+   "calcar"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-010",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d2",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "În sud-vest, la ieșirea Mureșului din depresiune, altitudinile scad sub:",
+  "explicatie_geo": "Sub 400 m, la ieșirea Mureșului.",
+  "sursa": "Altitudinile scad de la peste 1000 m în est (1080 m, Dl. Bichiș) la sub 400 m în SV, la ieșirea Mureșului din depresiune.",
+  "variante": [
+   "100 m",
+   "800 m",
+   "400 m",
+   "1000 m"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-DCT-011",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d2",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Altitudinile din Depresiunea Colinară a Transilvaniei cresc de la est la vest.",
+  "explicatie_geo": "Altitudinile SCAD de la est (peste 1000 m) spre sud-vest (sub 400 m).",
+  "sursa": "Altitudinile scad de la peste 1000 m în est (1080 m, Dl. Bichiș) la sub 400 m în SV, la ieșirea Mureșului din depresiune.",
+  "adevarat": false
+ },
+ {
+  "id": "X-DCT-012",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d2",
+  "tip": "adevarat_fals",
+  "dificultate": 1,
+  "enunt": "Gresiile, marnele și calcarul sunt roci mai rezistente.",
+  "explicatie_geo": "Corect.",
+  "sursa": "Este formată pe roci sedimentare mai rezistente (gresii, marne, calcar) sau mai puțin rezistente (argilă, nisip, sare).",
+  "adevarat": true
+ },
+ {
+  "id": "X-DCT-013",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Subcarpații Transilvaniei sunt localizați în:",
+  "explicatie_geo": "Subcarpații Transilvaniei – în est.",
+  "sursa": "Sunt localizați în est, la contactul cu Carpații Orientali.",
+  "variante": [
+   "est, la contactul cu Carpații Orientali",
+   "nord, lângă Someșe",
+   "vest, lângă Apuseni",
+   "sud, lângă Olt"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-DCT-014",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Cutele diapire sunt specifice:",
+  "explicatie_geo": "Sarea a dus la cute diapire în Subcarpații Transilvaniei.",
+  "sursa": "Prezența sării a determinat diapirism, ce a dus la formarea de cute diapire.",
+  "variante": [
+   "Câmpiei Transilvaniei",
+   "Podișului Târnavelor",
+   "Subcarpaților Transilvaniei",
+   "Podișului Someșan"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-DCT-015",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Depresiunile de contact s-au format prin:",
+  "explicatie_geo": "Eroziunea selectivă a Oltului, Mureșului și afluenților.",
+  "sursa": "S-au format prin eroziunea selectivă a principalelor râuri (Olt, Mureș) și a afluenților acestora.",
+  "variante": [
+   "acțiunea ghețarilor",
+   "scufundare tectonică",
+   "eroziunea selectivă a râurilor",
+   "erupții vulcanice"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-DCT-016",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Care NU este o depresiune de contact?",
+  "explicatie_geo": "Ciuc e în Carpații Orientali.",
+  "sursa": "Depresiuni: Făgăraș, Sibiu, Culoarul Alba Iulia – Turda, Huedin.",
+  "variante": [
+   "Depresiunea Ciuc",
+   "Depresiunea Sibiu",
+   "Depresiunea Huedin",
+   "Depresiunea Făgăraș"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-DCT-017",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Podișul Someșan este situat:",
+  "explicatie_geo": "Podișul Someșan – la nord de Someșul Mic și Someșul Mare.",
+  "sursa": "Este situat la nord de cele două Someșe (Mic, Mare).",
+  "variante": [
+   "la nord de cele două Someșe",
+   "între Someșe și Mureș",
+   "la sud de Mureș",
+   "în estul depresiunii"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-DCT-018",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Podișul Someșan înclină:",
+  "explicatie_geo": "Podișul Someșan: N → S.",
+  "sursa": "Înclină de la N spre S.",
+  "variante": [
+   "de la S spre N",
+   "de la E spre V",
+   "de la N spre S",
+   "de la V spre E"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-DCT-019",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 1,
+  "enunt": "Câmpia Transilvaniei este situată între:",
+  "explicatie_geo": "Între Someșe și Mureș.",
+  "sursa": "Este situată între Someșe și Mureș.",
+  "variante": [
+   "Târnave și Olt",
+   "Someșe și Mureș",
+   "Mureș și Olt",
+   "Barcău și Someș"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-020",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Câmpia Transilvaniei are altitudini de:",
+  "explicatie_geo": "500–600 m – deci nu e o câmpie adevărată.",
+  "sursa": "Are aspect vălurit, altitudini de 500–600 m.",
+  "variante": [
+   "100–200 m",
+   "sub 50 m",
+   "500–600 m",
+   "peste 1000 m"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-DCT-021",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Câmpia Transilvaniei este numită „câmpie” datorită:",
+  "explicatie_geo": "Numele vine de la utilizarea agricolă.",
+  "sursa": "Este numită câmpie datorită utilizării agricole.",
+  "variante": [
+   "prezenței sării",
+   "reliefului perfect plan",
+   "utilizării agricole",
+   "altitudinilor sub 200 m"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-DCT-022",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Domurile gazeifere sunt specifice:",
+  "explicatie_geo": "Câmpia Transilvaniei are domuri gazeifere.",
+  "sursa": "Prezintă domuri gazeifere.",
+  "variante": [
+   "Câmpiei Transilvaniei",
+   "Podișului Someșan",
+   "Subcarpaților Transilvaniei",
+   "Podișului Târnavelor"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-DCT-023",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "grila",
+  "dificultate": 2,
+  "enunt": "Podișul Târnavelor înclină:",
+  "explicatie_geo": "Podișul Târnavelor: E → V.",
+  "sursa": "Înclină de la est spre vest.",
+  "variante": [
+   "de la N spre S",
+   "de la est spre vest",
+   "de la vest spre est",
+   "de la S spre N"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-024",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "completare",
+  "dificultate": 3,
+  "enunt": "Depresiunile de contact: Făgăraș, Sibiu, Culoarul Alba Iulia – Turda și ……",
+  "explicatie_geo": "Huedin – în vest.",
+  "sursa": "Depresiuni: Făgăraș, Sibiu, Culoarul Alba Iulia – Turda, Huedin.",
+  "raspunsuri_acceptate": [
+   "Huedin"
+  ]
+ },
+ {
+  "id": "X-DCT-025",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "potrivire",
+  "dificultate": 2,
+  "enunt": "Asociază diviziunea cu trăsătura ei.",
+  "explicatie_geo": "Fiecare diviziune are „semnătura” ei.",
+  "sursa": "Prezintă domuri gazeifere.",
+  "coloanaA": [
+   "Subcarpații Transilvaniei",
+   "Podișul Someșan",
+   "Câmpia Transilvaniei",
+   "Podișul Târnavelor"
+  ],
+  "coloanaB": [
+   "cute diapire",
+   "cueste (structură monoclinală)",
+   "domuri gazeifere",
+   "înclină de la est spre vest",
+   "eroziune selectivă a râurilor"
+  ],
+  "perechi": {
+   "0": 0,
+   "1": 1,
+   "2": 2,
+   "3": 3
+  },
+  "distractor": [
+   4
+  ]
+ },
+ {
+  "id": "X-DCT-026",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "ordonare",
+  "dificultate": 2,
+  "enunt": "Ordonează de la nord la sud: Podișul Someșan, Câmpia Transilvaniei, Podișul Târnavelor.",
+  "explicatie_geo": "Someșan (N de Someșe) → Câmpia (între Someșe și Mureș) → Târnave (S de Mureș).",
+  "sursa": "Este situată între Someșe și Mureș.",
+  "elemente": [
+   "Podișul Someșan",
+   "Câmpia Transilvaniei",
+   "Podișul Târnavelor"
+  ]
+ },
+ {
+  "id": "X-DCT-027",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "cauza_efect",
+  "dificultate": 2,
+  "enunt": "Asociază fiecare formă de relief/proces cu cauza lui.",
+  "explicatie_geo": "Sare → diapirism; monoclinal → cueste; argile → alunecări.",
+  "sursa": "Datorită prezenței sării apare fenomenul de diapirism (ascensiunea sării).",
+  "perechi_corecte": [
+   {
+    "forma": "diapirism",
+    "cauza": "prezența sării"
+   },
+   {
+    "forma": "cueste",
+    "cauza": "straturile monoclinale"
+   },
+   {
+    "forma": "alunecări de teren",
+    "cauza": "prezența argilelor"
+   },
+   {
+    "forma": "depresiuni de contact",
+    "cauza": "eroziunea selectivă a râurilor"
+   }
+  ],
+  "de_rezolvat": 4
+ },
+ {
+  "id": "X-DCT-028",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Câmpia Transilvaniei.",
+  "sursa": "Prezintă domuri gazeifere.",
+  "indicii": [
+   "Am aspect vălurit, 500–600 m.",
+   "Sunt între Someșe și Mureș.",
+   "Am domuri gazeifere și sunt folosită pentru agricultură."
+  ],
+  "raspuns": "Câmpia Transilvaniei",
+  "variante": [
+   "Câmpia Transilvaniei",
+   "Podișul Someșan",
+   "Podișul Târnavelor",
+   "Subcarpații Transilvaniei"
+  ]
+ },
+ {
+  "id": "X-DCT-029",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Podișul Someșan.",
+  "sursa": "Prezintă structură monoclinală, ce a favorizat formarea cuestelor.",
+  "indicii": [
+   "Am structură monoclinală.",
+   "Am cueste.",
+   "Sunt la nord de cele două Someșe."
+  ],
+  "raspuns": "Podișul Someșan",
+  "variante": [
+   "Podișul Someșan",
+   "Podișul Târnavelor",
+   "Câmpia Transilvaniei",
+   "Munții Apuseni"
+  ]
+ },
+ {
+  "id": "X-DCT-030",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d3",
+  "tip": "cine_sunt",
+  "dificultate": 2,
+  "enunt": "Cine sunt eu?",
+  "explicatie_geo": "Subcarpații Transilvaniei.",
+  "sursa": "Prezintă cele mai mari altitudini, datorate și existenței unor roci mai rezistente (gresii, tuf vulcanic, marnă).",
+  "indicii": [
+   "Am cute diapire.",
+   "Am cele mai mari altitudini din depresiune.",
+   "Sunt în est, lângă Carpații Orientali."
+  ],
+  "raspuns": "Subcarpații Transilvaniei",
+  "variante": [
+   "Subcarpații Transilvaniei",
+   "Podișul Târnavelor",
+   "Depresiunile de contact",
+   "Grupa Centrală a Carpaților Orientali"
+  ]
+ },
+ {
+  "id": "X-MER-038",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "comparare",
+  "dificultate": 3,
+  "enunt": "Compară Carpații Meridionali cu Carpații Orientali.",
+  "explicatie_geo": "Ambii sunt munți tineri, dar Meridionalii sunt mai înalți și mai masivi.",
+  "sursa": "S-au format prin încrețire în timpul orogenezei alpine.",
+  "unitati": [
+   "Carpații Meridionali",
+   "Carpații Orientali"
+  ],
+  "asemanari": [
+   "Ambii prezintă relief carstic",
+   "Ambii prezintă relief glaciar (Făgăraș, Retezat – Rodnei)"
+  ],
+  "deosebiri": [
+   "Meridionalii au altitudinea maximă 2544 m, Orientalii 2303 m",
+   "Meridionalii au culmi E–V, Orientalii NV–SE",
+   "Orientalii au relief vulcanic, Meridionalii nu",
+   "Meridionalii au masivitate accentuată, Orientalii fragmentare accentuată"
+  ],
+  "capcane": [
+   "Ambii au altitudinea medie de 640 m",
+   "Ambii sunt formați doar din roci vulcanice"
+  ],
+  "de_selectat": [
+   2,
+   2
+  ]
+ },
+ {
+  "id": "X-OCC-030",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "comparare",
+  "dificultate": 3,
+  "enunt": "Compară Carpații Occidentali cu Carpații Orientali.",
+  "explicatie_geo": "Ambii au vulcani și carst, dar Orientalii sunt mai înalți.",
+  "sursa": "Prezintă relief carstic și vulcanic.",
+  "unitati": [
+   "Carpații Occidentali",
+   "Carpații Orientali"
+  ],
+  "asemanari": [
+   "Ambii prezintă relief vulcanic",
+   "Ambii prezintă relief carstic",
+   "Ambii au fragmentare accentuată"
+  ],
+  "deosebiri": [
+   "Orientalii au altitudinea medie circa 1300 m, Occidentalii 640 m",
+   "Orientalii au relief glaciar (Rodnei), Occidentalii nu",
+   "Altitudinea maximă: 2303 m la Orientali, 1849 m la Occidentali"
+  ],
+  "capcane": [
+   "Ambii au altitudinea maximă peste 2500 m",
+   "Ambii au culmi orientate E–V"
+  ],
+  "de_selectat": [
+   2,
+   2
+  ]
+ },
+ {
+  "id": "X-OCC-031",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "comparare",
+  "dificultate": 3,
+  "enunt": "Compară Carpații Occidentali cu Carpații Meridionali.",
+  "explicatie_geo": "Meridionalii: înalți și masivi; Occidentalii: joși și fragmentați.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "unitati": [
+   "Carpații Occidentali",
+   "Carpații Meridionali"
+  ],
+  "asemanari": [
+   "Ambii s-au format prin încrețire, în orogeneza alpină",
+   "Ambii prezintă relief carstic"
+  ],
+  "deosebiri": [
+   "Altitudinea medie: 640 m la Occidentali, 1150 m la Meridionali",
+   "Meridionalii au relief glaciar, Occidentalii nu",
+   "Occidentalii au relief vulcanic, Meridionalii nu",
+   "Occidentalii sunt foarte fragmentați, Meridionalii masivi"
+  ],
+  "capcane": [
+   "Ambii au altitudinea maximă 1849 m",
+   "Ambii sunt alcătuiți doar din conglomerate"
+  ],
+  "de_selectat": [
+   2,
+   2
+  ]
+ },
+ {
+  "id": "X-ORI-042",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Grupa Nordică a Carpaților Orientali.",
+  "explicatie_geo": "Grupa Nordică a Carpaților Orientali are numărul 1 pe hartă.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "tinta": 1
+ },
+ {
+  "id": "X-ORI-043",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 1 pe hartă?",
+  "explicatie_geo": "Numărul 1 = Grupa Nordică a Carpaților Orientali.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "nr": 1,
+  "variante": [
+   "Grupa Sudică a Carpaților Orientali",
+   "Grupa Făgăraș",
+   "Grupa Centrală a Carpaților Orientali",
+   "Grupa Nordică a Carpaților Orientali"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-ORI-044",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Grupa Centrală a Carpaților Orientali.",
+  "explicatie_geo": "Grupa Centrală a Carpaților Orientali are numărul 2 pe hartă.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "tinta": 2
+ },
+ {
+  "id": "X-ORI-045",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 2 pe hartă?",
+  "explicatie_geo": "Numărul 2 = Grupa Centrală a Carpaților Orientali.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "nr": 2,
+  "variante": [
+   "Grupa Nordică a Carpaților Orientali",
+   "Grupa Centrală a Carpaților Orientali",
+   "Grupa Parâng",
+   "Grupa Sudică a Carpaților Orientali"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-ORI-046",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Grupa Sudică a Carpaților Orientali.",
+  "explicatie_geo": "Grupa Sudică a Carpaților Orientali are numărul 3 pe hartă.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "tinta": 3
+ },
+ {
+  "id": "X-ORI-047",
+  "origine": "lectie",
+  "taram": "orientali",
+  "nivel": "o6",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 3 pe hartă?",
+  "explicatie_geo": "Numărul 3 = Grupa Sudică a Carpaților Orientali.",
+  "sursa": "Sunt situați în estul Depresiunii Colinare a Transilvaniei, între granița cu Ucraina (la nord) și Valea Prahovei (la sud-vest).",
+  "nr": 3,
+  "variante": [
+   "Grupa Retezat-Godeanu",
+   "Grupa Nordică a Carpaților Orientali",
+   "Grupa Centrală a Carpaților Orientali",
+   "Grupa Sudică a Carpaților Orientali"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-MER-039",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Grupa Bucegi.",
+  "explicatie_geo": "Grupa Bucegi are numărul 4 pe hartă.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "tinta": 4
+ },
+ {
+  "id": "X-MER-040",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 4 pe hartă?",
+  "explicatie_geo": "Numărul 4 = Grupa Bucegi.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "nr": 4,
+  "variante": [
+   "Grupa Bucegi",
+   "Munții Poiana Ruscă",
+   "Grupa Parâng",
+   "Grupa Făgăraș"
+  ],
+  "corect": 0
+ },
+ {
+  "id": "X-MER-041",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Grupa Făgăraș.",
+  "explicatie_geo": "Grupa Făgăraș are numărul 5 pe hartă.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "tinta": 5
+ },
+ {
+  "id": "X-MER-042",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 5 pe hartă?",
+  "explicatie_geo": "Numărul 5 = Grupa Făgăraș.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "nr": 5,
+  "variante": [
+   "Grupa Bucegi",
+   "Grupa Făgăraș",
+   "Grupa Nordică a Carpaților Orientali",
+   "Grupa Parâng"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-MER-043",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Grupa Parâng.",
+  "explicatie_geo": "Grupa Parâng are numărul 6 pe hartă.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "tinta": 6
+ },
+ {
+  "id": "X-MER-044",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 6 pe hartă?",
+  "explicatie_geo": "Numărul 6 = Grupa Parâng.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "nr": 6,
+  "variante": [
+   "Grupa Făgăraș",
+   "Grupa Centrală a Carpaților Orientali",
+   "Grupa Bucegi",
+   "Grupa Parâng"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-MER-045",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Grupa Retezat-Godeanu.",
+  "explicatie_geo": "Grupa Retezat-Godeanu are numărul 7 pe hartă.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "tinta": 7
+ },
+ {
+  "id": "X-MER-046",
+  "origine": "lectie",
+  "taram": "meridionali",
+  "nivel": "m5",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 7 pe hartă?",
+  "explicatie_geo": "Numărul 7 = Grupa Retezat-Godeanu.",
+  "sursa": "Sunt cei mai înalți dintre Carpați, fiind numiți și „Alpii Transilvaniei”.",
+  "nr": 7,
+  "variante": [
+   "Grupa Bucegi",
+   "Grupa Făgăraș",
+   "Grupa Retezat-Godeanu",
+   "Grupa Sudică a Carpaților Orientali"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-OCC-032",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Munții Banatului.",
+  "explicatie_geo": "Munții Banatului are numărul 8 pe hartă.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "tinta": 8
+ },
+ {
+  "id": "X-OCC-033",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 8 pe hartă?",
+  "explicatie_geo": "Numărul 8 = Munții Banatului.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "nr": 8,
+  "variante": [
+   "Munții Apuseni",
+   "Grupa Bucegi",
+   "Munții Poiana Ruscă",
+   "Munții Banatului"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-OCC-034",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Munții Poiana Ruscă.",
+  "explicatie_geo": "Munții Poiana Ruscă are numărul 9 pe hartă.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "tinta": 9
+ },
+ {
+  "id": "X-OCC-035",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 9 pe hartă?",
+  "explicatie_geo": "Numărul 9 = Munții Poiana Ruscă.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "nr": 9,
+  "variante": [
+   "Grupa Făgăraș",
+   "Munții Banatului",
+   "Munții Apuseni",
+   "Munții Poiana Ruscă"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-OCC-036",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "harta_atinge",
+  "dificultate": 1,
+  "enunt": "Atinge pe hartă: Munții Apuseni.",
+  "explicatie_geo": "Munții Apuseni are numărul 10 pe hartă.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "tinta": 10
+ },
+ {
+  "id": "X-OCC-037",
+  "origine": "lectie",
+  "taram": "occidentali",
+  "nivel": "c4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 10 pe hartă?",
+  "explicatie_geo": "Numărul 10 = Munții Apuseni.",
+  "sursa": "Reprezintă cea mai joasă și mai fragmentată unitate carpatică.",
+  "nr": 10,
+  "variante": [
+   "Munții Banatului",
+   "Munții Apuseni",
+   "Grupa Nordică a Carpaților Orientali",
+   "Munții Poiana Ruscă"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-031",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_atinge",
+  "dificultate": 2,
+  "enunt": "Atinge pe hartă: Câmpia Transilvaniei.",
+  "explicatie_geo": "Câmpia Transilvaniei are numărul 11 pe hartă.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "tinta": 11
+ },
+ {
+  "id": "X-DCT-032",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 11 pe hartă?",
+  "explicatie_geo": "Numărul 11 = Câmpia Transilvaniei.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "nr": 11,
+  "variante": [
+   "Grupa Centrală a Carpaților Orientali",
+   "Câmpia Transilvaniei",
+   "Podișul Someșan",
+   "Podișul Târnavelor"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-033",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_atinge",
+  "dificultate": 2,
+  "enunt": "Atinge pe hartă: Podișul Someșan.",
+  "explicatie_geo": "Podișul Someșan are numărul 12 pe hartă.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "tinta": 12
+ },
+ {
+  "id": "X-DCT-034",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 12 pe hartă?",
+  "explicatie_geo": "Numărul 12 = Podișul Someșan.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "nr": 12,
+  "variante": [
+   "Grupa Sudică a Carpaților Orientali",
+   "Podișul Someșan",
+   "Câmpia Transilvaniei",
+   "Podișul Târnavelor"
+  ],
+  "corect": 1
+ },
+ {
+  "id": "X-DCT-035",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_atinge",
+  "dificultate": 2,
+  "enunt": "Atinge pe hartă: Podișul Târnavelor.",
+  "explicatie_geo": "Podișul Târnavelor are numărul 13 pe hartă.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "tinta": 13
+ },
+ {
+  "id": "X-DCT-036",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 13 pe hartă?",
+  "explicatie_geo": "Numărul 13 = Podișul Târnavelor.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "nr": 13,
+  "variante": [
+   "Grupa Bucegi",
+   "Podișul Someșan",
+   "Câmpia Transilvaniei",
+   "Podișul Târnavelor"
+  ],
+  "corect": 3
+ },
+ {
+  "id": "X-DCT-037",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_atinge",
+  "dificultate": 2,
+  "enunt": "Atinge pe hartă: Subcarpații Transilvaniei.",
+  "explicatie_geo": "Subcarpații Transilvaniei are numărul 14 pe hartă.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "tinta": 14
+ },
+ {
+  "id": "X-DCT-038",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 14 pe hartă?",
+  "explicatie_geo": "Numărul 14 = Subcarpații Transilvaniei.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "nr": 14,
+  "variante": [
+   "Câmpia Transilvaniei",
+   "Podișul Someșan",
+   "Subcarpații Transilvaniei",
+   "Grupa Făgăraș"
+  ],
+  "corect": 2
+ },
+ {
+  "id": "X-DCT-039",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_atinge",
+  "dificultate": 2,
+  "enunt": "Atinge pe hartă: Depresiunile de contact.",
+  "explicatie_geo": "Depresiunile de contact are numărul 15 pe hartă.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "tinta": 15
+ },
+ {
+  "id": "X-DCT-040",
+  "origine": "lectie",
+  "taram": "dct",
+  "nivel": "d4",
+  "tip": "harta_numar",
+  "dificultate": 1,
+  "enunt": "Ce unitate are numărul 15 pe hartă?",
+  "explicatie_geo": "Numărul 15 = Depresiunile de contact.",
+  "sursa": "Este numită depresiune datorită altitudinii mai joase în raport cu arcul carpatic.",
+  "nr": 15,
+  "variante": [
+   "Câmpia Transilvaniei",
+   "Podișul Someșan",
+   "Grupa Nordică a Carpaților Orientali",
+   "Depresiunile de contact"
+  ],
+  "corect": 3
+ }
+]

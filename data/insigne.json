@@ -1,0 +1,98 @@
+[
+ {
+  "id": "varful-moldoveanu",
+  "nume": "Vârful Moldoveanu",
+  "icon": "⛰️",
+  "descriere": "15 răspunsuri corecte despre altitudini și vârfuri."
+ },
+ {
+  "id": "vulcanologul",
+  "nume": "Vulcanologul",
+  "icon": "🌋",
+  "descriere": "10 răspunsuri corecte despre relieful vulcanic."
+ },
+ {
+  "id": "speologul",
+  "nume": "Speologul",
+  "icon": "🦇",
+  "descriere": "10 răspunsuri corecte despre relieful carstic."
+ },
+ {
+  "id": "ghetarul",
+  "nume": "Ghețarul",
+  "icon": "🧊",
+  "descriere": "8 răspunsuri corecte despre relieful glaciar."
+ },
+ {
+  "id": "sarea-pamantului",
+  "nume": "Sarea pământului",
+  "icon": "🧂",
+  "descriere": "5 răspunsuri corecte despre diapirism și sare."
+ },
+ {
+  "id": "cuesta-perfecta",
+  "nume": "Cuesta perfectă",
+  "icon": "📐",
+  "descriere": "5 răspunsuri corecte despre cueste și structura monoclinală."
+ },
+ {
+  "id": "ochi-de-cartograf",
+  "nume": "Ochi de cartograf",
+  "icon": "🗺️",
+  "descriere": "10 identificări corecte pe hartă, la rând."
+ },
+ {
+  "id": "comparatorul",
+  "nume": "Comparatorul",
+  "icon": "⚖️",
+  "descriere": "O comparație rezolvată perfect."
+ },
+ {
+  "id": "maestrul-olt",
+  "nume": "Maestrul râurilor",
+  "icon": "🌊",
+  "descriere": "10 răspunsuri corecte despre râuri și limite."
+ },
+ {
+  "id": "seria-de-foc",
+  "nume": "Seria de foc",
+  "icon": "🔥",
+  "descriere": "Ai învățat 5 zile la rând."
+ },
+ {
+  "id": "expeditia-1",
+  "nume": "Expediția 1",
+  "icon": "🏅",
+  "descriere": "Testul nr. 1 terminat cu nota cel puțin 9."
+ },
+ {
+  "id": "expeditia-2",
+  "nume": "Expediția 2",
+  "icon": "🏆",
+  "descriere": "Testul nr. 2 terminat cu nota cel puțin 9."
+ },
+ {
+  "id": "primul-pas",
+  "nume": "Primul pas",
+  "icon": "👣",
+  "descriere": "Primul nivel terminat."
+ },
+ {
+  "id": "trei-stele",
+  "nume": "Trei stele",
+  "icon": "⭐",
+  "descriere": "Un nivel terminat cu 3 stele."
+ },
+ {
+  "id": "cartograful-complet",
+  "nume": "Toate tărâmurile",
+  "icon": "🧭",
+  "descriere": "Cel puțin o stea în fiecare nivel."
+ },
+ {
+  "id": "memorie-de-bufnita",
+  "nume": "Memorie de bufniță",
+  "icon": "🦉",
+  "descriere": "20 de flashcard-uri ajunse în cutia 5."
+ }
+]
