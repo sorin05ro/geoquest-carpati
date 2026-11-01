@@ -54,7 +54,7 @@ function tabIntrebari() {
   desen();
   return h('section', { class: 'card' },
     h('div', { class: 'filtre' }, h('input', { class: 'camp', placeholder: 'Caută…', 'aria-label': 'Caută', oninput: (e) => { filtru = e.target.value.toLowerCase(); desen(); } }),
-      h('select', { class: 'camp', 'aria-label': 'Tărâm', onchange: (e) => { taram = e.target.value; desen(); } }, h('option', { value: '' }, 'Toate tărâmurile'), E.D.taramuri.map(t => h('option', { value: t.id }, t.nume)))),
+      h('select', { class: 'camp', 'aria-label': 'Tărâm', onchange: (e) => { taram = e.target.value; desen(); } }, h('option', { value: '' }, 'Ambele teste'), E.D.taramuri.map(t => h('option', { value: t.id }, t.nume)))),
     lista);
 }
 

@@ -1,5 +1,5 @@
 // Service worker: aplicația merge offline după prima încărcare.
-const VERSIUNE = 'gqc-v1.0.0';
+const VERSIUNE = 'gqc-v1.1.0';
 const NUCLEU = [
   './', 'index.html', 'manifest.json', 'css/style.css',
   'js/app.js', 'js/engine.js', 'js/exercises.js', 'js/harta.js', 'js/expeditie.js', 'js/clasa.js', 'js/profesor.js', 'js/storage.js', 'js/normalize.js', 'js/ui.js',

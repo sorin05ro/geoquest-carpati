@@ -3,43 +3,43 @@
   "id": "varful-moldoveanu",
   "nume": "Vârful Moldoveanu",
   "icon": "⛰️",
-  "descriere": "15 răspunsuri corecte despre altitudini și vârfuri."
+  "descriere": "8 răspunsuri corecte despre altitudini și vârfuri."
  },
  {
   "id": "vulcanologul",
   "nume": "Vulcanologul",
   "icon": "🌋",
-  "descriere": "10 răspunsuri corecte despre relieful vulcanic."
+  "descriere": "5 răspunsuri corecte despre relieful vulcanic."
  },
  {
   "id": "speologul",
   "nume": "Speologul",
   "icon": "🦇",
-  "descriere": "10 răspunsuri corecte despre relieful carstic."
+  "descriere": "3 răspunsuri corecte despre relieful carstic."
  },
  {
   "id": "ghetarul",
   "nume": "Ghețarul",
   "icon": "🧊",
-  "descriere": "8 răspunsuri corecte despre relieful glaciar."
+  "descriere": "3 răspunsuri corecte despre relieful glaciar."
  },
  {
   "id": "sarea-pamantului",
   "nume": "Sarea pământului",
   "icon": "🧂",
-  "descriere": "5 răspunsuri corecte despre diapirism și sare."
+  "descriere": "3 răspunsuri corecte despre diapirism și sare."
  },
  {
   "id": "cuesta-perfecta",
   "nume": "Cuesta perfectă",
   "icon": "📐",
-  "descriere": "5 răspunsuri corecte despre cueste și structura monoclinală."
+  "descriere": "3 răspunsuri corecte despre cueste și structura monoclinală."
  },
  {
   "id": "ochi-de-cartograf",
   "nume": "Ochi de cartograf",
   "icon": "🗺️",
-  "descriere": "10 identificări corecte pe hartă, la rând."
+  "descriere": "3 hărți (Subiectul IV) rezolvate perfect."
  },
  {
   "id": "comparatorul",
@@ -85,14 +85,14 @@
  },
  {
   "id": "cartograful-complet",
-  "nume": "Toate tărâmurile",
+  "nume": "Toate subiectele",
   "icon": "🧭",
-  "descriere": "Cel puțin o stea în fiecare nivel."
+  "descriere": "Cel puțin o stea în fiecare nivel al ambelor teste."
  },
  {
   "id": "memorie-de-bufnita",
   "nume": "Memorie de bufniță",
   "icon": "🦉",
-  "descriere": "20 de flashcard-uri ajunse în cutia 5."
+  "descriere": "10 flashcard-uri ajunse în cutia 5."
  }
 ]

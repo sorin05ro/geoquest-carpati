@@ -24,7 +24,7 @@ export function antet() {
 
 // ---------------------------------------------------------------- router
 const RUTE = [
-  [/^#\/?$/, acasa], [/^#\/taram\/(\w+)$/, ecranTaram], [/^#\/nivel\/(\w+)$/, ecranNivel], [/^#\/invata\/(\w+)$/, ecranInvata],
+  [/^#\/?$/, acasa], [/^#\/taram\/(\w+)$/, ecranTaram], [/^#\/nivel\/(\w+)$/, ecranNivel], [/^#\/invata\/(\w+)$/, ecranInvata], [/^#\/lectii$/, ecranLectii],
   [/^#\/flash(?:\/(\w+))?$/, ecranFlash], [/^#\/expeditie$/, () => ecranAlegereExpeditie(app)], [/^#\/expeditie\/(\d)$/, (n) => ecranExpeditie(app, +n)],
   [/^#\/profil$/, ecranProfil], [/^#\/clasa$/, () => ecranClasa(app)], [/^#\/profesor$/, () => ecranProfesor(app)], [/^#\/setari$/, ecranSetari],
 ];
@@ -50,7 +50,7 @@ function ecranStart() {
   app.replaceChildren(h('section', { class: 'card start' },
     h('div', { class: 'geo-mare', html: geoSvg('bucuros', 120) }),
     h('h1', {}, 'Bun venit în Misiunea Carpați!'),
-    h('p', {}, 'Sunt Geo, bufnița-cartograf. Împreună explorăm Carpații Orientali, Meridionali, Occidentali și Depresiunea Colinară a Transilvaniei – apoi plecăm în Marea Expediție (testele nr. 1 și 2).'),
+    h('p', {}, 'Sunt Geo, bufnița-cartograf. Ne antrenăm pe Testul nr. 1 și Testul nr. 2 (Carpații și Depresiunea Colinară a Transilvaniei), subiect cu subiect – apoi plecăm în Marea Expediție, cu nota calculată după barem.'),
     h('label', { class: 'eticheta' }, 'Alege o poreclă (nu folosi numele tău real):', inp),
     h('p', { class: 'eticheta' }, 'Alege un avatar:'), h('div', { class: 'avatare' }, av),
     h('button', { class: 'btn mare', onclick: () => {
@@ -64,7 +64,7 @@ function ecranStart() {
 function acasa() {
   const s = incarca();
   const boss = E.bossDeblocat();
-  const salut = s.seria.zile >= 2 ? `Salut, ${s.porecla}! Ești în a ${s.seria.zile}-a zi la rând. 🔥` : `Salut, ${s.porecla}! Alege un tărâm și hai la drum.`;
+  const salut = s.seria.zile >= 2 ? `Salut, ${s.porecla}! Ești în a ${s.seria.zile}-a zi la rând. 🔥` : `Salut, ${s.porecla}! Alege un test și hai la antrenament.`;
   app.append(
     geoSpune(salut, 'bucuros'),
     h('h1', { class: 'titlu-sectiune' }, 'Harta tărâmurilor'),
@@ -76,10 +76,11 @@ function acasa() {
         h('span', { class: 'mic' }, `⭐ ${p.are} / ${p.max}`));
     }),
       h(boss ? 'a' : 'div', { class: 'taram boss' + (boss ? '' : ' blocat'), href: boss ? '#/expeditie' : null, style: { '--c': '#12355b' } },
-        h('span', { class: 'icon' }, boss ? '🏆' : '🔒'), h('span', { class: 'nr' }, 'Tărâmul 5'), h('strong', {}, 'Marea Expediție'),
-        h('span', { class: 'mic' }, boss ? 'Testul nr. 1 și Testul nr. 2, cu punctaj după barem.' : 'Se deschide când ai 60% din stelele tărâmurilor 1–4.'))),
+        h('span', { class: 'icon' }, boss ? '🏆' : '🔒'), h('span', { class: 'nr' }, 'Tărâmul 3'), h('strong', {}, 'Marea Expediție'),
+        h('span', { class: 'mic' }, boss ? 'Testul nr. 1 și Testul nr. 2, cu punctaj după barem.' : 'Se deschide când ai 60% din stelele celor două teste.'))),
     h('h2', { class: 'titlu-sectiune' }, 'Antrenament rapid'),
     h('div', { class: 'actiuni' },
+      h('a', { class: 'actiune', href: '#/lectii' }, h('span', {}, '📖'), h('strong', {}, 'Fișele lecțiilor'), h('small', {}, 'Recitește înainte de test')),
       h('a', { class: 'actiune', href: '#/flash' }, h('span', {}, '🃏'), h('strong', {}, 'Flashcard-uri'), h('small', {}, `${E.carduriScadente(null, 999).length} de repetat azi`)),
       h('a', { class: 'actiune', href: '#/clasa' }, h('span', {}, '👥'), h('strong', {}, 'Mod Clasă'), h('small', {}, 'Concurs pe echipe, la tablă')),
       h('a', { class: 'actiune', href: '#/profil' }, h('span', {}, '🏅'), h('strong', {}, 'Insigne'), h('small', {}, `${s.insigne.length} / ${E.D.insigne.length}`)),
@@ -94,7 +95,7 @@ function ecranTaram(id) {
     h('nav', { class: 'pesmet' }, h('a', { href: '#/' }, '← Harta tărâmurilor')),
     h('header', { class: 'cap-taram', style: { '--c': t.culoare } }, h('span', { class: 'icon' }, t.icon), h('h1', {}, t.nume)),
     h('div', { class: 'actiuni doua' },
-      h('a', { class: 'actiune', href: `#/invata/${t.id}` }, h('span', {}, '📖'), h('strong', {}, 'Învață'), h('small', {}, 'Fișa lecției, pe carduri')),
+      h('a', { class: 'actiune', href: '#/lectii' }, h('span', {}, '📖'), h('strong', {}, 'Fișele lecțiilor'), h('small', {}, 'Carpații și Depresiunea Colinară')),
       h('a', { class: 'actiune', href: `#/flash/${t.id}` }, h('span', {}, '🃏'), h('strong', {}, 'Flashcard-uri'), h('small', {}, 'Repetiție spațiată'))),
     h('ol', { class: 'niveluri' }, t.niveluri.map((n, i) => {
       const st = s.stele[n.id] || 0; const nr = E.intrebariNivel(n.id).length;
@@ -105,8 +106,15 @@ function ecranTaram(id) {
 }
 
 // ---------------------------------------------------------------- învață
+function ecranLectii() {
+  app.append(h('nav', { class: 'pesmet' }, h('a', { href: '#/' }, '← Acasă')), h('h1', { class: 'titlu-sectiune' }, '📖 Fișele lecțiilor'),
+    geoSpune('Toți itemii din cele două teste se sprijină pe aceste patru lecții. Recitește-le înainte de antrenament.', 'gandeste'),
+    h('div', { class: 'taramuri' }, E.D.lectiiIndex.map(l => h('a', { class: 'taram', href: `#/invata/${l.id}`, style: { '--c': l.culoare } },
+      h('span', { class: 'icon' }, l.icon), h('strong', {}, l.nume), h('span', { class: 'mic' }, `${E.D.lectii[l.id].length} fișe`)))));
+}
+
 function ecranInvata(id) {
-  const t = E.D.taramuri.find(x => x.id === id); if (!t) return (location.hash = '#/');
+  const t = E.D.lectiiIndex.find(x => x.id === id); if (!t) return (location.hash = '#/lectii');
   const fise = E.D.lectii[id]; let i = 0;
   const zona = h('div');
   const desen = () => {
@@ -116,10 +124,10 @@ function ecranInvata(id) {
       h('div', { class: 'rand-butoane' },
         h('button', { class: 'btn sec', disabled: i === 0, onclick: () => { i--; desen(); } }, '← Înapoi'),
         i < fise.length - 1 ? h('button', { class: 'btn', onclick: () => { i++; desen(); } }, 'Mai departe →')
-          : h('a', { class: 'btn', href: `#/taram/${id}` }, 'Gata – la niveluri! 🎯')));
+          : h('a', { class: 'btn', href: '#/lectii' }, 'Gata – înapoi la lecții 📖')));
   };
   desen();
-  app.append(h('nav', { class: 'pesmet' }, h('a', { href: `#/taram/${id}` }, '← ' + t.nume)), geoSpune('Citește cu atenție: toate întrebările din joc vin din aceste fișe.', 'gandeste'), zona);
+  app.append(h('nav', { class: 'pesmet' }, h('a', { href: '#/lectii' }, '← Fișele lecțiilor')), geoSpune('Citește cu atenție: itemii din teste se sprijină pe aceste fișe.', 'gandeste'), zona);
 }
 
 // ---------------------------------------------------------------- nivel

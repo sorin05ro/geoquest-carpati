@@ -237,8 +237,8 @@ h1, h2, h3 { line-height: 1.2; margin: .3em 0 .5em; }
 .echipa.activa { background: var(--c); color: #fff; transform: scale(1.04); }
 .echipa .pct { font-size: 1.5em; font-weight: 700; }
 .centru { text-align: center; }
-.roata { width: 220px; height: 220px; margin: 20px auto; border-radius: 50%; position: relative; background: conic-gradient(#94532a 0 90deg, #7a4a2a 90deg 180deg, #2d7a3e 180deg 270deg, #b8860b 270deg 360deg); transition: transform 2.2s cubic-bezier(.2,.8,.2,1); border: 6px solid var(--mare); }
-.roata span { position: absolute; left: 50%; top: 50%; font-size: 2.2em; transform: rotate(calc(var(--i) * 90deg + 45deg)) translate(0, -70px) rotate(calc(var(--i) * -90deg - 45deg)); margin: -.6em 0 0 -.6em; }
+.roata { width: 220px; height: 220px; margin: 20px auto; border-radius: 50%; position: relative; background: conic-gradient(#94532a 0 60deg, #d9a930 60deg 120deg, #2d7a3e 120deg 180deg, #1e4f80 180deg 240deg, #b8860b 240deg 300deg, #7a4a2a 300deg 360deg); transition: transform 2.2s cubic-bezier(.2,.8,.2,1); border: 6px solid var(--mare); }
+.roata span { position: absolute; left: 50%; top: 50%; width: 1.6em; height: 1.2em; margin: -.6em 0 0 -.8em; text-align: center; font-size: 1.6em; font-weight: 700; color: #fff; transform: rotate(calc(var(--i) * 60deg + 30deg)) translate(0, -72px); }
 .rez-roata { font-size: 1.3em; font-weight: 700; }
 .podium { list-style: none; padding: 0; font-size: 1.3em; } .podium li { margin: 8px 0; border-left: 10px solid var(--c); padding-left: 10px; text-align: left; }
 

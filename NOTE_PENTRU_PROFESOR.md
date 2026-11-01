@@ -1,5 +1,7 @@
 # Note pentru profesor
 
+**Versiunea 1.1:** aplicația conține doar cei 32 de itemi din Testul nr. 1 și Testul nr. 2. Cele 170 de întrebări suplimentare din versiunea 1.0 au fost scoase. Jocul e organizat pe cele două teste, cu niveluri pe subiecte.
+
 Puncte care cer confirmarea dumneavoastră. Niciunul nu blochează aplicația.
 
 ## 1. Harta (`data/harta.json`)
@@ -45,7 +47,7 @@ Ca evaluarea să fie automată și obiectivă, itemii cu răspuns deschis devin 
 
 ## 4. Deblocarea Marii Expediții
 
-Expediția se deschide automat la 60% din stelele tărâmurilor 1–4. Dacă doriți ca elevii să dea testul simulat mai devreme, intrați în *Modul Profesor → Date și progres → Deblochează Marea Expediție*. Setarea se aplică pe dispozitivul respectiv.
+Expediția se deschide automat la 60% din stelele celor două teste. Dacă doriți ca elevii să dea testul simulat mai devreme, intrați în *Modul Profesor → Date și progres → Deblochează Marea Expediție*. Setarea se aplică pe dispozitivul respectiv.
 
 ## 5. Ce nu face (încă) aplicația
 

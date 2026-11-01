@@ -17,7 +17,7 @@ export function ecranAlegereExpeditie(app) {
   app.append(h('nav', { class: 'pesmet' }, h('a', { href: '#/' }, '← Harta tărâmurilor')),
     h('h1', { class: 'titlu-sectiune' }, '🏆 Marea Expediție'),
     deblocat ? geoSpune('Aici sunt exact întrebările din testele tale. Punctajul se calculează după barem: 90 de puncte + 10 din oficiu.', 'bucuros')
-      : geoSpune('Expediția se deschide când ai strâns 60% din stelele tărâmurilor 1–4 (sau când o deschide profesorul).', 'gandeste'),
+      : geoSpune('Expediția se deschide când ai strâns 60% din stelele celor două teste (sau când o deschide profesorul).', 'gandeste'),
     h('div', { class: 'taramuri' }, [1, 2].map(n => {
       const r = s.expeditii?.[n];
       return h(deblocat ? 'a' : 'div', { class: 'taram boss' + (deblocat ? '' : ' blocat'), href: deblocat ? `#/expeditie/${n}` : null, style: { '--c': '#12355b' } },

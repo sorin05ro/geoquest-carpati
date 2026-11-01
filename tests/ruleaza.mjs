@@ -18,8 +18,8 @@ let esec = 0;
   await p.close();
 }
 // capturi la 375 / 768 / 1920 px + verificare scroll orizontal
-const stare = { porecla: 'Test', avatar: '🦊', xp: 420, insigne: ['primul-pas', 'trei-stele', 'ochi-de-cartograf'], stele: { o1: 3, o2: 2, m1: 3, c1: 1, d1: 2 }, seria: { ultimaZi: new Date().toISOString().slice(0, 10), zile: 3 }, bossDeblocat: true, setari: { sunet: false, cronometru: true, textMare: false } };
-const ecrane = [['acasa', '#/'], ['taram', '#/taram/meridionali'], ['nivel', '#/nivel/o6'], ['invata', '#/invata/dct'], ['flash', '#/flash'], ['expeditie', '#/expeditie/1'], ['profil', '#/profil'], ['clasa', '#/clasa']];
+const stare = { porecla: 'Test', avatar: '🦊', xp: 420, insigne: ['primul-pas', 'trei-stele', 'ochi-de-cartograf'], stele: { t1s1: 3, t1s2: 2, t2s1: 1 }, seria: { ultimaZi: new Date().toISOString().slice(0, 10), zile: 3 }, bossDeblocat: true, setari: { sunet: false, cronometru: true, textMare: false } };
+const ecrane = [['acasa', '#/'], ['taram', '#/taram/t1'], ['nivel', '#/nivel/t1s3'], ['lectii', '#/lectii'], ['invata', '#/invata/dct'], ['flash', '#/flash'], ['expeditie', '#/expeditie/1'], ['profil', '#/profil'], ['clasa', '#/clasa']];
 for (const w of [375, 768, 1920]) {
   const ctx = await b.newContext({ viewport: { width: w, height: w === 1920 ? 1080 : w === 768 ? 1024 : 812 } });
   await ctx.addInitScript((s) => { try { localStorage.setItem('geoquest-carpati-v1', JSON.stringify(s)); } catch (e) {} }, stare);

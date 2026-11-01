@@ -122,7 +122,7 @@ function hartaAtinge(q, opt) {
     evalueaza: (s) => s === q.tinta ? 1 : 0,
     marcheaza: (s) => { m.marcheaza(q.tinta, 'corect'); if (s !== q.tinta) m.marcheaza(s, 'gresit'); },
     solutie: () => h('span', {}, `${numeRegiune(q.tinta)} are numărul `, h('strong', {}, q.tinta), ' pe hartă.'),
-    indiciu: () => { const r = D.harta.regiuni.find(x => x.nr === q.tinta); const t = D.taramuri.find(x => x.id === r.taram); return `Caută în tărâmul „${t.nume}”, printre numerele ${D.harta.regiuni.filter(x => x.taram === r.taram).map(x => x.nr).join(', ')}.`; }
+    indiciu: () => { const r = D.harta.regiuni.find(x => x.nr === q.tinta); return `Caută printre numerele ${D.harta.regiuni.filter(x => x.activ && x.taram === r?.taram).map(x => x.nr).join(', ')}.`; }
   };
 }
 

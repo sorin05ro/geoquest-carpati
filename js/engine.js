@@ -8,7 +8,7 @@ export async function incarcaDate() {
   const f = (p) => fetch(new URL('../' + p, import.meta.url)).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
   const [lectii, teste, extra, harta, insigne] = await Promise.all([
     f('data/lectii.json'), f('data/intrebari_teste.json'), f('data/intrebari_extra.json'), f('data/harta.json'), f('data/insigne.json')]);
-  D.lectii = lectii.lectii; D.taramuri = lectii.taramuri; D.teste = teste; D.extra = extra; D.harta = harta; D.insigne = insigne;
+  D.lectii = lectii.lectii; D.lectiiIndex = lectii.lectii_index || []; D.taramuri = lectii.taramuri; D.teste = teste; D.extra = extra; D.harta = harta; D.insigne = insigne;
   for (const q of [...teste, ...extra]) q.etichete = etichete(q);
 }
 
@@ -69,8 +69,9 @@ export function inregistreaza(q, corect) {
   if (q.tip?.startsWith('harta')) c.hartaSerie = corect ? (c.hartaSerie || 0) + 1 : 0;
   if (!corect) s.istoricGreseli[q.id] = (s.istoricGreseli[q.id] || 0) + 1;
   salveaza();
-  const reguli = [['vulcanologul', c.vulcanic >= 10], ['speologul', c.carstic >= 10], ['ghetarul', c.glaciar >= 8], ['sarea-pamantului', c.sare >= 5],
-    ['cuesta-perfecta', c.cuesta >= 5], ['varful-moldoveanu', c.altitudini >= 15], ['maestrul-olt', c.rauri >= 10], ['ochi-de-cartograf', c.hartaSerie >= 10],
+  if (corect && q.tip === 'comparare') c.comparare = (c.comparare || 0) + 1;
+  const reguli = [['vulcanologul', c.vulcanic >= 5], ['speologul', c.carstic >= 3], ['ghetarul', c.glaciar >= 3], ['sarea-pamantului', c.sare >= 3],
+    ['cuesta-perfecta', c.cuesta >= 3], ['varful-moldoveanu', c.altitudini >= 8], ['maestrul-olt', c.rauri >= 10], ['ochi-de-cartograf', c.harta >= 3], ['comparatorul', c.comparare >= 1],
     ['seria-de-foc', s.seria.zile >= 5]];
   for (const [id, ok] of reguli) if (ok) { const i = acordaInsigna(id); if (i) noi.push(i); }
   return noi;
@@ -139,7 +140,7 @@ export function raspunsCard(id, stiut) {
   l.scadent = Date.now() + INTERVAL[l.cutie - 1] * 864e5;
   s.leitner[id] = l; salveaza();
   const in5 = Object.values(s.leitner).filter(x => x.cutie === 5).length;
-  return in5 >= 20 ? acordaInsigna('memorie-de-bufnita') : null;
+  return in5 >= 10 ? acordaInsigna('memorie-de-bufnita') : null;
 }
 export function statisticaLeitner() {
   const s = incarca(); const c = [0, 0, 0, 0, 0];

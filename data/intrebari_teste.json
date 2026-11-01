@@ -5,7 +5,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "orientali",
+  "taram": "t1",
   "enunt": "Carpații de Curbură sunt alcătuiți preponderent din:",
   "variante": [
    "roci vulcanice",
@@ -15,9 +15,10 @@
   ],
   "corect": 1,
   "origine": "test",
-  "nivel": "o5",
+  "nivel": "t1s1",
   "explicatie_geo": "Grupa Sudică (Carpații Curburii) are roci sedimentare: Vrancei, Buzăului, Ciucaș – flișul e o rocă sedimentară.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "orientali"
  },
  {
   "id": "T1-I-2",
@@ -25,7 +26,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "orientali",
+  "taram": "t1",
   "enunt": "Relieful vulcanic se găsește în:",
   "variante": [
    "Munții Călimani",
@@ -35,9 +36,10 @@
   ],
   "corect": 0,
   "origine": "test",
-  "nivel": "o4",
+  "nivel": "t1s1",
   "explicatie_geo": "Călimani, Gurghiu și Harghita sunt munții vulcanici ai Grupei Centrale.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "orientali"
  },
  {
   "id": "T1-I-3",
@@ -45,7 +47,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "dct",
+  "taram": "t1",
   "enunt": "Diapirismul este specific unității de relief:",
   "variante": [
    "Carpații Orientali",
@@ -55,9 +57,10 @@
   ],
   "corect": 3,
   "origine": "test",
-  "nivel": "d2",
+  "nivel": "t1s1",
   "explicatie_geo": "Sarea din Depresiunea Colinară a Transilvaniei urcă spre suprafață: acesta e diapirismul.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T1-I-4",
@@ -65,7 +68,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "occidentali",
+  "taram": "t1",
   "enunt": "Altitudinea maximă a Carpaților Occidentali o întâlnim în munții:",
   "variante": [
    "Munții Banatului",
@@ -75,9 +78,10 @@
   ],
   "corect": 1,
   "origine": "test",
-  "nivel": "c3",
+  "nivel": "t1s1",
   "explicatie_geo": "Vf. Bihor (Cucurbăta Mare), 1849 m, e cel mai înalt din Carpații Occidentali.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "occidentali"
  },
  {
   "id": "T1-I-5",
@@ -85,7 +89,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "dct",
+  "taram": "t1",
   "enunt": "Subdiviziunea Depresiunii Colinare a Transilvaniei situată la sud de râul Mureș este:",
   "variante": [
    "Câmpia Transilvaniei",
@@ -95,9 +99,10 @@
   ],
   "corect": 2,
   "origine": "test",
-  "nivel": "d3",
+  "nivel": "t1s1",
   "explicatie_geo": "Podișul Târnavelor e situat la sud de Mureș.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T1-II-1",
@@ -105,16 +110,17 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "dct",
+  "taram": "t1",
   "enunt": "Depresiunea Colinară a Transilvaniei se învecinează în est cu ……",
   "raspunsuri_acceptate": [
    "Carpații Orientali",
    "Carpatii Orientali"
   ],
   "origine": "test",
-  "nivel": "d1",
+  "nivel": "t1s2",
   "explicatie_geo": "La est, Depresiunea Colinară a Transilvaniei se învecinează cu Carpații Orientali.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T1-II-2",
@@ -122,16 +128,17 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "orientali",
+  "taram": "t1",
   "enunt": "Grupa Nordică a Carpaților Orientali este numită ……",
   "raspunsuri_acceptate": [
    "Carpații Maramureșului și Bucovinei",
    "Carpații Maramureșului și ai Bucovinei"
   ],
   "origine": "test",
-  "nivel": "o3",
+  "nivel": "t1s2",
   "explicatie_geo": "Grupa Nordică se mai numește Carpații Maramureșului și Bucovinei.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "orientali"
  },
  {
   "id": "T1-II-3",
@@ -139,7 +146,7 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "meridionali",
+  "taram": "t1",
   "enunt": "Cel mai înalt vârf din Carpații Meridionali este ……",
   "raspunsuri_acceptate": [
    "Moldoveanu",
@@ -147,9 +154,10 @@
    "Moldoveanu 2544"
   ],
   "origine": "test",
-  "nivel": "m4",
+  "nivel": "t1s2",
   "explicatie_geo": "Vf. Moldoveanu (2544 m), din Munții Făgăraș, e cel mai înalt vârf din România.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "meridionali"
  },
  {
   "id": "T1-II-4",
@@ -157,15 +165,16 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "meridionali",
+  "taram": "t1",
   "enunt": "Râul care traversează în totalitate Carpații Meridionali se numește ……",
   "raspunsuri_acceptate": [
    "Olt"
   ],
   "origine": "test",
-  "nivel": "m4",
+  "nivel": "t1s2",
   "explicatie_geo": "Oltul traversează în totalitate Carpații Meridionali; Dâmbovița și Jiul doar parțial.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "meridionali"
  },
  {
   "id": "T1-II-5",
@@ -173,16 +182,17 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "dct",
+  "taram": "t1",
   "enunt": "Dealurile asimetrice formate în regiunile cu straturi monoclinale din Depresiunea Colinară a Transilvaniei se numesc ……",
   "raspunsuri_acceptate": [
    "cueste",
    "cuestă"
   ],
   "origine": "test",
-  "nivel": "d2",
+  "nivel": "t1s2",
   "explicatie_geo": "Straturile monoclinale (înclinate) dau dealuri asimetrice numite cueste.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T1-III",
@@ -191,7 +201,7 @@
   "puncte": 10,
   "puncte_per_pereche": 2,
   "tip": "potrivire",
-  "taram": "orientali",
+  "taram": "t1",
   "enunt": "Realizați corespondența între subunitățile de relief (A) și unitățile în care sunt situate (B).",
   "coloanaA": [
    "Munții Bihor",
@@ -219,9 +229,10 @@
    3
   ],
   "origine": "test",
-  "nivel": "o6",
+  "nivel": "t1s3",
   "explicatie_geo": "Gândește-te la fiecare grupă: unde e Bihorul, unde e Câmpia Transilvaniei, unde e Vâlcanul…",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "mixt"
  },
  {
   "id": "T1-IV-1",
@@ -230,7 +241,7 @@
   "puncte": 12,
   "puncte_per_item": 3,
   "tip": "harta",
-  "taram": "orientali",
+  "taram": "t1",
   "enunt": "Identifică pe hartă unitățile marcate cu A, B, C, D.",
   "itemi": [
    {
@@ -255,9 +266,10 @@
    }
   ],
   "origine": "test",
-  "nivel": "o6",
+  "nivel": "t1s3",
   "explicatie_geo": "Pe hartă: A – Apuseni (10), B – Grupa Centrală (2), C – Grupa Parâng (6), D – Munții Banatului (8).",
   "dificultate": 2,
+  "lectie": "mixt",
   "itemi_harta": [
    10,
    2,
@@ -272,7 +284,7 @@
   "puncte": 4,
   "tip": "selectie_multipla",
   "de_selectat": 2,
-  "taram": "occidentali",
+  "taram": "t1",
   "enunt": "Alege două aspecte specifice ale reliefului Munților Apuseni.",
   "corecte": [
    "Altitudinea maximă: 1849 m, Vf. Bihor (Cucurbăta Mare)",
@@ -286,9 +298,10 @@
    "Sunt alcătuiți exclusiv din fliș"
   ],
   "origine": "test",
-  "nivel": "c3",
+  "nivel": "t1s3",
   "explicatie_geo": "Apusenii: max. 1849 m, mozaic petrografic, relief carstic și vulcanic, depresiuni-golf.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "occidentali"
  },
  {
   "id": "T1-IV-3",
@@ -297,7 +310,7 @@
   "puncte": 4,
   "tip": "selectie_multipla",
   "de_selectat": 2,
-  "taram": "orientali",
+  "taram": "t1",
   "enunt": "Alege două subdiviziuni ale Grupei Centrale a Carpaților Orientali.",
   "corecte": [
    "Munții Călimani",
@@ -317,9 +330,10 @@
    "Depresiunea Maramureșului"
   ],
   "origine": "test",
-  "nivel": "o4",
+  "nivel": "t1s3",
   "explicatie_geo": "Grupa Centrală: Călimani, Gurghiu, Harghita, Bistriței, Hășmaș, Ceahlău, Tarcău; depresiunile Giurgeu, Ciuc.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "orientali"
  },
  {
   "id": "T1-V",
@@ -327,7 +341,7 @@
   "subiect": "V",
   "puncte": 10,
   "tip": "comparare",
-  "taram": "meridionali",
+  "taram": "t1",
   "enunt": "Compară relieful Carpaților Orientali cu cel al Carpaților Meridionali: două asemănări și două deosebiri.",
   "asemanari": [
    "Ambele s-au format prin încrețire, în timpul orogenezei alpine",
@@ -346,9 +360,10 @@
   ],
   "nota": "Punctaj complet doar dacă unitățile sunt tratate comparativ: 4 × 2,5p.",
   "origine": "test",
-  "nivel": "m5",
+  "nivel": "t1s4",
   "explicatie_geo": "Compară mereu „față în față”: ce au la fel și ce au diferit.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "mixt"
  },
  {
   "id": "T1-VI",
@@ -356,7 +371,7 @@
   "subiect": "VI",
   "puncte": 10,
   "tip": "selectie_dubla",
-  "taram": "dct",
+  "taram": "t1",
   "enunt": "Explică de ce Depresiunea Colinară a Transilvaniei este numită: a) „depresiune”; b) „colinară”.",
   "itemi": [
    {
@@ -378,9 +393,10 @@
   ],
   "puncte_per_item": 5,
   "origine": "test",
-  "nivel": "d1",
+  "nivel": "t1s4",
   "explicatie_geo": "Depresiune = mai joasă decât Carpații din jur; colinară = relief de dealuri.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T2-I-1",
@@ -388,7 +404,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "meridionali",
+  "taram": "t2",
   "enunt": "Carpații Meridionali se desfășoară pe direcția:",
   "variante": [
    "NV–SE",
@@ -398,9 +414,10 @@
   ],
   "corect": 3,
   "origine": "test",
-  "nivel": "m1",
+  "nivel": "t2s1",
   "explicatie_geo": "Culmile Carpaților Meridionali sunt orientate E–V.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "meridionali"
  },
  {
   "id": "T2-I-2",
@@ -408,7 +425,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "meridionali",
+  "taram": "t2",
   "enunt": "Râul Olt formează limita între grupele:",
   "variante": [
    "Parâng și Retezat",
@@ -418,9 +435,10 @@
   ],
   "corect": 1,
   "origine": "test",
-  "nivel": "m2",
+  "nivel": "t2s1",
   "explicatie_geo": "Grupa Făgăraș: între Dâmbovița și Olt; Grupa Parâng: între Olt și Jiu.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "meridionali"
  },
  {
   "id": "T2-I-3",
@@ -428,7 +446,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "dct",
+  "taram": "t2",
   "enunt": "Limita sudică a Câmpiei Transilvaniei este valea:",
   "variante": [
    "Oltului",
@@ -438,9 +456,10 @@
   ],
   "corect": 2,
   "origine": "test",
-  "nivel": "d3",
+  "nivel": "t2s1",
   "explicatie_geo": "Câmpia Transilvaniei e între Someșe (la nord) și Mureș (la sud).",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T2-I-4",
@@ -448,7 +467,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "occidentali",
+  "taram": "t2",
   "enunt": "Limita nordică a Carpaților Occidentali o constituie valea râului:",
   "variante": [
    "Barcău",
@@ -458,9 +477,10 @@
   ],
   "corect": 0,
   "origine": "test",
-  "nivel": "c1",
+  "nivel": "t2s1",
   "explicatie_geo": "Carpații Occidentali: la nord – Valea Barcăului, la sud – Valea Dunării.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "occidentali"
  },
  {
   "id": "T2-I-5",
@@ -468,7 +488,7 @@
   "subiect": "I",
   "puncte": 4,
   "tip": "grila",
-  "taram": "dct",
+  "taram": "t2",
   "enunt": "Depresiunea Colinară a Transilvaniei s-a format prin:",
   "variante": [
    "erupții vulcanice",
@@ -478,9 +498,10 @@
   ],
   "corect": 1,
   "origine": "test",
-  "nivel": "d1",
+  "nivel": "t2s1",
   "explicatie_geo": "Un compartiment carpatic s-a scufundat, apoi s-au depus sedimente și s-a ridicat inegal.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T2-II-1",
@@ -488,7 +509,7 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "meridionali",
+  "taram": "t2",
   "enunt": "Între grupele montane Parâng și Făgăraș este localizată depresiunea ……",
   "raspunsuri_acceptate": [
    "Loviștei",
@@ -496,9 +517,10 @@
    "Loviștea"
   ],
   "origine": "test",
-  "nivel": "m2",
+  "nivel": "t2s2",
   "explicatie_geo": "Depresiunea Loviștei aparține Grupei Făgăraș, la contactul cu Grupa Parâng.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "meridionali"
  },
  {
   "id": "T2-II-2",
@@ -506,15 +528,16 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "occidentali",
+  "taram": "t2",
   "enunt": "Între Munții Banatului și Munții Apuseni se află Munții ……",
   "raspunsuri_acceptate": [
    "Poiana Ruscă"
   ],
   "origine": "test",
-  "nivel": "c2",
+  "nivel": "t2s2",
   "explicatie_geo": "Munții Poiana Ruscă: între valea Timișului și valea Mureșului.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "occidentali"
  },
  {
   "id": "T2-II-3",
@@ -522,7 +545,7 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "dct",
+  "taram": "t2",
   "enunt": "Altitudinea maximă în Depresiunea Colinară a Transilvaniei este ……",
   "raspunsuri_acceptate": [
    "1080 m",
@@ -531,9 +554,10 @@
    "Dealul Bichiș"
   ],
   "origine": "test",
-  "nivel": "d2",
+  "nivel": "t2s2",
   "explicatie_geo": "Dl. Bichiș, 1080 m, în estul depresiunii.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T2-II-4",
@@ -541,15 +565,16 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "orientali",
+  "taram": "t2",
   "enunt": "Fâșia vestică a Carpaților Orientali este formată din roci ……",
   "raspunsuri_acceptate": [
    "vulcanice"
   ],
   "origine": "test",
-  "nivel": "o2",
+  "nivel": "t2s2",
   "explicatie_geo": "Fâșia vestică a Carpaților Orientali e formată din roci vulcanice.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "orientali"
  },
  {
   "id": "T2-II-5",
@@ -557,15 +582,16 @@
   "subiect": "II",
   "puncte": 4,
   "tip": "completare",
-  "taram": "dct",
+  "taram": "t2",
   "enunt": "Depresiunea Făgăraș, depresiune de contact, s-a format prin eroziunea selectivă a râului ……",
   "raspunsuri_acceptate": [
    "Olt"
   ],
   "origine": "test",
-  "nivel": "d3",
+  "nivel": "t2s2",
   "explicatie_geo": "Depresiunile de contact s-au format prin eroziunea selectivă a râurilor Olt și Mureș.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  },
  {
   "id": "T2-III",
@@ -574,7 +600,7 @@
   "puncte": 10,
   "puncte_per_pereche": 2,
   "tip": "potrivire",
-  "taram": "occidentali",
+  "taram": "t2",
   "enunt": "Realizați corespondența între subunitățile de relief (A) și unitățile în care sunt situate (B).",
   "coloanaA": [
    "Munții Rodnei",
@@ -602,9 +628,10 @@
    4
   ],
   "origine": "test",
-  "nivel": "c4",
+  "nivel": "t2s3",
   "explicatie_geo": "Rodnei – nord; Ciuc – centru; Beiuș – Apuseni; Cernei – Retezat-Godeanu.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "mixt"
  },
  {
   "id": "T2-IV-1",
@@ -613,7 +640,7 @@
   "puncte": 12,
   "puncte_per_item": 3,
   "tip": "harta",
-  "taram": "meridionali",
+  "taram": "t2",
   "enunt": "Identifică pe hartă unitățile marcate cu A, B, C, D.",
   "itemi": [
    {
@@ -638,9 +665,10 @@
    }
   ],
   "origine": "test",
-  "nivel": "m5",
+  "nivel": "t2s3",
   "explicatie_geo": "Pe hartă: A – Grupa Nordică (1), B – Grupa Făgăraș (5), C – Poiana Ruscă (9), D – Retezat-Godeanu (7).",
   "dificultate": 2,
+  "lectie": "mixt",
   "itemi_harta": [
    1,
    5,
@@ -655,7 +683,7 @@
   "puncte": 4,
   "tip": "selectie_multipla",
   "de_selectat": 2,
-  "taram": "orientali",
+  "taram": "t2",
   "enunt": "Alege două aspecte specifice ale reliefului Grupei Nordice a Carpaților Orientali.",
   "corecte": [
    "Altitudinea maximă: 2303 m, Vf. Pietrosul Rodnei",
@@ -669,9 +697,10 @@
    "Culmi orientate E–V"
   ],
   "origine": "test",
-  "nivel": "o3",
+  "nivel": "t2s3",
   "explicatie_geo": "Grupa Nordică: Pietrosul Rodnei 2303 m, relief glaciar, vulcanic, depresiunile Maramureș, Dornelor, Câmpulung.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "orientali"
  },
  {
   "id": "T2-IV-3",
@@ -680,7 +709,7 @@
   "puncte": 4,
   "tip": "selectie_multipla",
   "de_selectat": 2,
-  "taram": "meridionali",
+  "taram": "t2",
   "enunt": "Alege două subdiviziuni ale Grupei Retezat-Godeanu.",
   "corecte": [
    "Munții Retezat",
@@ -698,9 +727,10 @@
    "Depresiunea Loviștei"
   ],
   "origine": "test",
-  "nivel": "m3",
+  "nivel": "t2s3",
   "explicatie_geo": "Retezat-Godeanu: Retezat, Godeanu, Mehedinți, Vâlcan, Țarcu; Depresiunea Hațeg.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "meridionali"
  },
  {
   "id": "T2-V",
@@ -708,7 +738,7 @@
   "subiect": "V",
   "puncte": 10,
   "tip": "comparare",
-  "taram": "occidentali",
+  "taram": "t2",
   "enunt": "Compară relieful Carpaților Occidentali cu cel al Carpaților Meridionali: două asemănări și două deosebiri.",
   "asemanari": [
    "Ambele s-au format prin încrețire, în timpul orogenezei alpine",
@@ -728,9 +758,10 @@
   ],
   "nota": "Punctaj complet doar dacă unitățile sunt tratate comparativ: 4 × 2,5p.",
   "origine": "test",
-  "nivel": "c4",
+  "nivel": "t2s4",
   "explicatie_geo": "Meridionalii: înalți, masivi, glaciari. Occidentalii: joși, fragmentați, cu vulcani.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "mixt"
  },
  {
   "id": "T2-VI",
@@ -738,7 +769,7 @@
   "subiect": "VI",
   "puncte": 10,
   "tip": "cauza_efect",
-  "taram": "dct",
+  "taram": "t2",
   "enunt": "Precizează două forme de relief sau procese specifice Depresiunii Colinare a Transilvaniei și explică cauza apariției fiecăreia.",
   "perechi_corecte": [
    {
@@ -762,8 +793,9 @@
   "puncte_per_pereche": 5,
   "punctaj_detaliat": "numire 2p + cauză 3p",
   "origine": "test",
-  "nivel": "d4",
+  "nivel": "t2s4",
   "explicatie_geo": "Sare → diapirism; straturi monoclinale → cueste; argile → alunecări; râuri → depresiuni de contact.",
-  "dificultate": 2
+  "dificultate": 2,
+  "lectie": "dct"
  }
 ]

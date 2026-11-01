@@ -15,17 +15,14 @@ try {
   t('32 de itemi din teste, cu id-urile din meta-prompt', ID_TEST.every(id => E.D.teste.some(q => q.id === id)) && E.D.teste.length === 32, `${E.D.teste.length} itemi`);
   const toate = E.toateIntrebarile(); const ids = toate.map(q => q.id);
   t('fără id-uri duplicate', new Set(ids).size === ids.length);
-  t('≥ 140 întrebări suplimentare', E.D.extra.length >= 140, `${E.D.extra.length}`);
-  const pe = (tr) => E.D.extra.filter(q => q.taram === tr).length;
-  t('distribuție pe tărâmuri (35/35/30/30)', pe('orientali') >= 35 && pe('meridionali') >= 35 && pe('occidentali') >= 30 && pe('dct') >= 30, `O ${pe('orientali')} · M ${pe('meridionali')} · C ${pe('occidentali')} · D ${pe('dct')}`);
-  t('fiecare întrebare suplimentară are sursă', E.D.extra.every(q => q.sursa && q.sursa.length > 10));
-  t('fiecare număr 1–15 cerut în ambele sensuri pe hartă', [...Array(15)].every((_, i) => E.D.extra.some(q => q.tip === 'harta_atinge' && q.tinta === i + 1) && E.D.extra.some(q => q.tip === 'harta_numar' && q.nr === i + 1)));
+  t('fără întrebări suplimentare: doar itemii din teste', E.D.extra.length === 0 && toate.every(q => q.origine === 'test'), `${toate.length} întrebări`);
   t('indicii „corect” valide', toate.filter(q => 'corect' in q && q.variante).every(q => q.corect >= 0 && q.corect < q.variante.length));
   t('perechi valide la potriviri', toate.filter(q => q.tip === 'potrivire').every(q => Object.keys(q.perechi).length === q.coloanaA.length && Object.values(q.perechi).every(j => j < q.coloanaB.length)));
   t('regiuni 1–15 cu poligoane', E.D.harta.regiuni.filter(r => r.activ).length === 15 && E.D.harta.regiuni.filter(r => r.activ).every(r => r.poligoane.length && r.poligoane[0].length >= 3));
   const niv = new Set(E.D.taramuri.flatMap(x => x.niveluri.map(n => n.id)));
   t('fiecare întrebare aparține unui nivel existent', toate.every(q => niv.has(q.nivel)));
-  t('fiecare nivel are cel puțin 7 întrebări', [...niv].every(n => E.intrebariNivel(n).length >= 7));
+  t('fiecare nivel conține itemi dintr-un singur test', [...niv].every(n => new Set(E.intrebariNivel(n).map(q => q.test)).size === 1));
+  t('fiecare nivel are cel puțin 2 itemi', [...niv].every(n => E.intrebariNivel(n).length >= 2));
   // 2. fiecare întrebare: rezolvarea corectă = 1, iar controllerul se construiește fără erori
   const rele = [];
   for (const q of toate) { const c = creeaza(q, {}); const s = c._rezolva(); const v = c.evalueaza(s); if (Math.abs(v - 1) > 1e-9) rele.push(q.id + '=' + v); }

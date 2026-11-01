@@ -15,7 +15,7 @@ export function ecranClasa(app) {
   desenEchipe();
   const alegNr = h('div', { class: 'segment' }, [2, 3, 4].map(n => h('button', { type: 'button', 'aria-pressed': String(n === nrEchipe), onclick: (e) => { nrEchipe = n; e.currentTarget.parentNode.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(+b.textContent === n))); desenEchipe(); } }, n)));
   const sel = h('select', { class: 'camp', onchange: (e) => sursa = e.target.value, 'aria-label': 'Sursa întrebărilor' },
-    h('option', { value: 'toate' }, 'Toate tărâmurile'), E.D.taramuri.map(t => h('option', { value: t.id }, t.nume)), h('option', { value: 'teste' }, 'Doar întrebări din teste'), h('option', { value: 'roata' }, '🎡 Roata norocului (la fiecare rundă)'));
+    h('option', { value: 'toate' }, 'Ambele teste'), E.D.taramuri.map(t => h('option', { value: t.id }, t.nume)), h('option', { value: 'roata' }, '🎡 Roata norocului (alege subiectul I–VI)'));
   const selRunde = h('select', { class: 'camp', onchange: (e) => runde = +e.target.value, 'aria-label': 'Număr de runde' }, [6, 10, 16, 20].map(n => h('option', { value: n, selected: n === 10 }, `${n} întrebări`)));
   app.append(h('nav', { class: 'pesmet' }, h('a', { href: '#/' }, '← Acasă')), h('h1', { class: 'titlu-sectiune' }, '👥 Mod Clasă'),
     geoSpune('Proiectează pe tablă. Echipele răspund pe rând; răspunsul corect aduce 10 puncte, cel cu indiciu 5.', 'bucuros'),
@@ -25,7 +25,7 @@ export function ecranClasa(app) {
 
   function pool(src) {
     const toate = E.active(E.toateIntrebarile()).filter(q => !['harta'].includes(q.tip) || true);
-    if (src === 'teste') return toate.filter(q => q.origine === 'test');
+    if (/^S(I|II|III|IV|V|VI)$/.test(src)) return toate.filter(q => q.subiect === src.slice(1));
     if (src === 'toate') return toate;
     return toate.filter(q => q.taram === src);
   }
@@ -44,11 +44,11 @@ export function ecranClasa(app) {
       intrebare(ech, sursa);
     };
     const roata = (ech) => {
-      const t = amesteca(E.D.taramuri)[0];
-      const disc = h('div', { class: 'roata', 'aria-hidden': 'true' }, E.D.taramuri.map((x, i) => h('span', { style: { '--i': i } }, x.icon)));
+      const SB = ['I', 'II', 'III', 'IV', 'V', 'VI'];
+      const idx = Math.floor(Math.random() * SB.length); const t = { icon: '🎯', nume: `Subiectul ${SB[idx]}`, id: 'S' + SB[idx] };
+      const disc = h('div', { class: 'roata', 'aria-hidden': 'true' }, SB.map((x, i) => h('span', { style: { '--i': i } }, x)));
       zona.replaceChildren(h('div', { class: 'card centru' }, h('h2', {}, `${echipe[ech].nume} învârte roata!`), disc, h('p', { class: 'rez-roata', 'aria-live': 'polite' }, '…')));
-      const idx = E.D.taramuri.indexOf(t);
-      requestAnimationFrame(() => disc.style.transform = `rotate(${1440 + (360 - idx * 90)}deg)`);
+      requestAnimationFrame(() => disc.style.transform = `rotate(${1440 + (360 - idx * 60 - 30)}deg)`);
       setTimeout(() => { zona.querySelector('.rez-roata').textContent = `${t.icon} ${t.nume}`; setTimeout(() => intrebare(ech, t.id), 900); }, 2300);
     };
     const intrebare = (ech, src) => {

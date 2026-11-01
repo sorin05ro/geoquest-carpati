@@ -1,112 +1,78 @@
 {
  "taramuri": [
   {
-   "id": "orientali",
-   "nume": "Carpații Orientali",
-   "icon": "🏔️",
+   "id": "t1",
+   "nume": "Testul nr. 1",
+   "icon": "🥾",
    "culoare": "#94532a",
    "niveluri": [
     {
-     "id": "o1",
-     "titlu": "Poziție și limite"
+     "id": "t1s1",
+     "titlu": "Subiectul I – alege răspunsul corect"
     },
     {
-     "id": "o2",
-     "titlu": "Caracteristici"
+     "id": "t1s2",
+     "titlu": "Subiectul II – completează"
     },
     {
-     "id": "o3",
-     "titlu": "Grupa Nordică"
+     "id": "t1s3",
+     "titlu": "Subiectele III și IV – potrivire și hartă"
     },
     {
-     "id": "o4",
-     "titlu": "Grupa Centrală"
-    },
-    {
-     "id": "o5",
-     "titlu": "Grupa Sudică"
-    },
-    {
-     "id": "o6",
-     "titlu": "Hartă și recapitulare"
+     "id": "t1s4",
+     "titlu": "Subiectele V și VI – compară și explică"
     }
    ]
+  },
+  {
+   "id": "t2",
+   "nume": "Testul nr. 2",
+   "icon": "🧗",
+   "culoare": "#2d7a3e",
+   "niveluri": [
+    {
+     "id": "t2s1",
+     "titlu": "Subiectul I – alege răspunsul corect"
+    },
+    {
+     "id": "t2s2",
+     "titlu": "Subiectul II – completează"
+    },
+    {
+     "id": "t2s3",
+     "titlu": "Subiectele III și IV – potrivire și hartă"
+    },
+    {
+     "id": "t2s4",
+     "titlu": "Subiectele V și VI – compară și explică"
+    }
+   ]
+  }
+ ],
+ "lectii_index": [
+  {
+   "id": "orientali",
+   "nume": "Carpații Orientali",
+   "icon": "🏔️",
+   "culoare": "#94532a"
   },
   {
    "id": "meridionali",
    "nume": "Carpații Meridionali",
    "icon": "⛰️",
-   "culoare": "#7a4a2a",
-   "niveluri": [
-    {
-     "id": "m1",
-     "titlu": "Limite și caracteristici"
-    },
-    {
-     "id": "m2",
-     "titlu": "Grupele Bucegi și Făgăraș"
-    },
-    {
-     "id": "m3",
-     "titlu": "Grupele Parâng și Retezat-Godeanu"
-    },
-    {
-     "id": "m4",
-     "titlu": "Vârfuri și râuri"
-    },
-    {
-     "id": "m5",
-     "titlu": "Hartă și recapitulare"
-    }
-   ]
+   "culoare": "#7a4a2a"
   },
   {
    "id": "occidentali",
    "nume": "Carpații Occidentali",
    "icon": "🌲",
-   "culoare": "#2d7a3e",
-   "niveluri": [
-    {
-     "id": "c1",
-     "titlu": "Limite și caracteristici"
-    },
-    {
-     "id": "c2",
-     "titlu": "Banat și Poiana Ruscă"
-    },
-    {
-     "id": "c3",
-     "titlu": "Munții Apuseni"
-    },
-    {
-     "id": "c4",
-     "titlu": "Hartă și recapitulare"
-    }
-   ]
+   "culoare": "#2d7a3e"
   },
   {
    "id": "dct",
    "nume": "Depresiunea Colinară a Transilvaniei",
    "icon": "🌾",
-   "culoare": "#b8860b",
-   "niveluri": [
-    {
-     "id": "d1",
-     "titlu": "Nume, limite, formare"
-    },
-    {
-     "id": "d2",
-     "titlu": "Roci și fenomene"
-    },
-    {
-     "id": "d3",
-     "titlu": "Diviziunile"
-    },
-    {
-     "id": "d4",
-     "titlu": "Hartă și recapitulare"
-    }
-   ]
+   "culoare": "#b8860b"
   }
  ],
  "lectii": {
